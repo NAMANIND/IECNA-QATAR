@@ -7,7 +7,7 @@ import Countdown from "@/components/countdown/Countdown";
 
 function Herosection() {
   const customFutureDateTime = new Date(
-    "Fri September 19 2024 01:52:13 GMT+0530 (India Standard Time)"
+    "Tue November 19 2024 01:52:13 GMT+0530 (India Standard Time)"
   );
   const today = new Date(); // Get the current date
 
@@ -52,7 +52,7 @@ function Herosection() {
           >
             {" "}
             <Countdown futureDate={futureDate} />
-            QATAR
+            Qatar
           </div>
           <div className="flex-auto sm:mt-6  mt-0 leading-[250%] sm:text-right text-center">
             19<sup className="text-white">th</sup> SEPT 2024
