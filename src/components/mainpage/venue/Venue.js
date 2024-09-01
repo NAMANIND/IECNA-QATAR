@@ -84,7 +84,7 @@ function Venue() {
               >
                 VENUE
                 <br />
-                DUBAI
+                QATAR
               </div>
             </div>
           </div>

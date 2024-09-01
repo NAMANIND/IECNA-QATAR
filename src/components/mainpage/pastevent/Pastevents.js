@@ -142,7 +142,7 @@ function Pastevents() {
           >
             <div className="flex flex-col grow pt-9 w-full text-black h-[300px] bg-white rounded-[32px] max-md:mt-10">
               <div className="flex flex-col self-start ml-9 max-md:ml-2.5">
-                <h1 className="text-4xl ">DUBAI</h1>
+                <h1 className="text-4xl ">QATAR</h1>
                 <h2
                   className={`mt-5 text-2xl tracking-tighter  ${work_sans.className} `}
                 >
@@ -229,7 +229,7 @@ function Pastevents() {
           >
             {/* <span className="text-[#ef3340] ">U</span>
             <span className="text-[#009739] ">A</span> */}
-            <span className="text-white">DUBAI,</span> are you ready?
+            <span className="text-white">QATAR,</span> are you ready?
           </h1>
         </div>
       </div>

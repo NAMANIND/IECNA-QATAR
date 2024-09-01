@@ -115,7 +115,7 @@ function Aboutone() {
       title: "Social Media Users",
       value: "$462 M",
       description:
-        "Dubai was home to 462.0 million social media users in January 2024, equating to 32.2 percent of the total population.",
+        "Qatar was home to 462.0 million social media users in January 2024, equating to 32.2 percent of the total population.",
     },
   ];
 
@@ -207,7 +207,7 @@ function Aboutone() {
             {" "}
             Don't miss out on this remarkable gathering of like-minded
             professionals. Join us at the Influence Exchange Confex and Awards
-            2.0 Series Dubai 2024 to unlock the full potential of ad tech, mar
+            2.0 Series Qatar 2024 to unlock the full potential of ad tech, mar
             tech & influencer marketing in today's digital landscape.
           </span>
         </motion.p>
@@ -291,10 +291,10 @@ function Aboutone() {
                 <span className="text-xl font-bold text-[#ccff00]">
                   Instagram Growth:{" "}
                 </span>{" "}
-                Instagram Influencer marketing in Dubai has witnessed
+                Instagram Influencer marketing in Qatar has witnessed
                 significant growth and evolution in recent years, becoming a
                 prominent strategy for brands to reach and engage with their
-                target audiences. In Dubai, influencers have become a vital
+                target audiences. In Qatar, influencers have become a vital
                 channel for businesses, forging authentic connections with
                 audiences through relatable content. The influencer marketing
                 industry has witnessed widespread adoption across sectors.

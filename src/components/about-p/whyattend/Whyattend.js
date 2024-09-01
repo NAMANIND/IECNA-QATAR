@@ -50,7 +50,7 @@ function Whyattend() {
     {
       title: "International\nPerspective",
       imageUrl: exclusive,
-      text: "Dubai attracts a diverse international audience. Engaging with attendees from different countries and cultures can provide a broader perspective on influencer marketing strategies and practices worldwide.",
+      text: "QATAR attracts a diverse international audience. Engaging with attendees from different countries and cultures can provide a broader perspective on influencer marketing strategies and practices worldwide.",
     },
   ];
 
@@ -90,7 +90,7 @@ function Whyattend() {
         className="self-stretch mt-20 w-full sm:text-4xl text-xl italic font-bold tracking-tighter leading-7 text-center text-black uppercase max-md:mt-10 max-md:max-w-full  "
       >
         <span className="font-semibold  italic">
-          DUBAI We are back with The Influencer Exchange Confex & Awards Series
+          QATAR We are back with The Influencer Exchange Confex & Awards Series
           2.0
           <br /> WE ARE BRINGING TOGETHER OVER{" "}
         </span>

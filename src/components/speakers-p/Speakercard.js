@@ -544,7 +544,7 @@ function SpeakerCard() {
           viewport={{ once: true, amount: 0.3 }}
           className="self-center text-5xl text-center uppercase text-black leading-[61.92px] max-md:max-w-full max-md:text-4xl"
         >
-          PAST Dubai SPEAKERS
+          PAST Qatar SPEAKERS
         </motion.h2>
         <div className="mt-[120px] w-full max-md:mt-10 max-md:max-w-full">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 gap-y-[150px] w-full">
