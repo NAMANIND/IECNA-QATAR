@@ -10,7 +10,7 @@ function Oursponsor() {
   // Define data for sponsors
   const sponsors = [
     {
-      title: "Exhibitor", // Title of the sponsor
+      title: "Exhibitor",
       name: "PROVEN 360",
       description:
         "Founded in 2022, PROVEN 360 is a premier digital marketing agency dedicated to helping businesses grow through tailored strategies. They offer website development, social media, SEO, and more to drive engagement and conversions.",
