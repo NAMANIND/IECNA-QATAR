@@ -61,7 +61,7 @@ function Herosection() {
         {/* <h1 className="mt-5 text-8xl text-center leading-[89.68px] max-md:max-w-full max-md:text-4xl font-anton">
           INFLUENCE EXCHANGE CONFEX AND AWARDS
         </h1> */}
-        <svg viewBox="0 0 375 18" className="w-[100%]">
+        <svg viewBox="0 0 282 18" className="w-[100%]">
           <text x="0" y="15" fill="#ffffff" className="text-white">
             INFLUENCE EXCHANGE CONFEX & AWARDS SERIES
           </text>
@@ -69,7 +69,7 @@ function Herosection() {
 
         <div className="bg-[#ccff00] py-1 px-2 mt-5">
           <svg
-            viewBox="0 0 665 20"
+            viewBox="0 0 578 20"
             className={`w-[100%] ${work_sans.className} font-light  `}
           >
             <text
