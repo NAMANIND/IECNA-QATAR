@@ -71,7 +71,7 @@ function Ig() {
           initial={offscreen}
           whileInView={onscreen}
           viewport={{ once: true, amount: 0.3 }}
-          className="relative sm:top-auto top-20 sm:-left-10 left-0"
+          className="relative sm:top-auto top-4 sm:-left-10 left-0"
         >
           <Image
             src={got}
