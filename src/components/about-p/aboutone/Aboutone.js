@@ -172,15 +172,20 @@ function Aboutone() {
           viewport={{ once: true, amount: 0.3 }}
           className="sm:text-md text-xl  sm:px-20 px-0 font-medium text-justify tracking-tighter leading-6 text-white max-md:max-w-full slidein"
         >
-          Join us for an electrifying event that bridges the gap between
-          influencers and brands, creating endless possibilities for
-          collaboration, innovation, and growth. Our platform is designed to
-          unite over 100 dynamic marketeers and 100 influential individuals,
-          creating an unparalleled environment for networking, knowledge
-          exchange, and strategic partnerships. Focused on cultivating genuine
-          connections, this event promises an exceptional gathering of
-          passionate individuals dedicated to the realm of ad tech, mar tech &
-          influencer marketing. <br />
+          The Influence Exchange Confex &amp; Awards Series is back with its
+          next exciting installment, set to take place on November 15th, 2024,
+          in the vibrant locale of Qatar. This premier event is designed to be
+          the ultimate convergence of Ad Tech, Mar Tech, and Influencer
+          Marketing, offering unparalleled opportunities for industry
+          professionals to unlock the full potential of their brands. Join us
+          for an electrifying event that bridges the gap between influencers and
+          brands, creating endless possibilities for collaboration, innovation,
+          and growth. Our platform is designed to unite over 100 dynamic
+          marketeers and 100 influential individuals, creating an unparalleled
+          environment for networking, knowledge exchange, and strategic
+          partnerships. Focused on cultivating genuine connections, this event
+          promises an exceptional gathering of passionate individuals dedicated
+          to the realm of ad tech, mar tech &amp; influencer marketing. <br />
           <br />
           This is a one-of-a-kind opportunity for marketers and Influencers to
           meet under one roof and foster future collaborations and partnerships.
@@ -205,10 +210,11 @@ function Aboutone() {
           <br />
           <span className="text-[#ccff00]">
             {" "}
-            Don't miss out on this remarkable gathering of like-minded
-            professionals. Join us at the Influence Exchange Confex and Awards
-            2.0 Series Qatar 2024 to unlock the full potential of ad tech, mar
-            tech & influencer marketing in today's digital landscape.
+            Don&#39;t miss this opportunity to be part of a global hub of
+            innovation and excellence. Join us in Qatar for a transformative
+            experience that will equip you with the knowledge, tools, and
+            connections to excel in the fast-paced world of Ad Tech, Mar Tech,
+            and Influencer Marketing.
           </span>
         </motion.p>
         <motion.div

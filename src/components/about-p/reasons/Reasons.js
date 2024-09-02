@@ -80,8 +80,8 @@ function Reasons() {
           <span className="font-semibold italic text-[#51B6FF]">
             Influencer marketing{" "}
           </span>
-          has become a popular strategy for <br /> brands and businesses due to
-          several compelling reasons:
+          has gained widespread popularity among brands and businesses, driven
+          by numerous compelling factors.
         </span>
       </motion.div>
 

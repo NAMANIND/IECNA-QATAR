@@ -3,7 +3,7 @@ import * as React from "react";
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import ok from "../../../../public/ok.jpg";
-import got from "../../../../public/images/mainok.png";
+import got from "../../../../public/images/qatar.png";
 import { anton, work_sans } from "@/styles/fonts";
 import { motion } from "framer-motion";
 
@@ -71,7 +71,7 @@ function Ig() {
           initial={offscreen}
           whileInView={onscreen}
           viewport={{ once: true, amount: 0.3 }}
-          className="relative sm:top-auto top-10 sm:left-20 left-0"
+          className="relative sm:top-auto top-20 sm:-left-10 left-0"
         >
           <Image
             src={got}

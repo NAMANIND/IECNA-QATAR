@@ -90,8 +90,8 @@ function Whyattend() {
         className="self-stretch mt-20 w-full sm:text-4xl text-xl italic font-bold tracking-tighter leading-7 text-center text-black uppercase max-md:mt-10 max-md:max-w-full  "
       >
         <span className="font-semibold  italic">
-          QATAR We are back with The Influencer Exchange Confex & Awards Series
-          2.0
+          Empower Your Influence, Expand Your Reach! Countdown to Qatar! Get
+          ready to elevate your influence with us!
           <br /> WE ARE BRINGING TOGETHER OVER{" "}
         </span>
         <span className="font-semibold italic text-[#51B6FF]">
@@ -109,9 +109,7 @@ function Whyattend() {
         className="mt-11 text-2xl sm:px-10 px-0 mb-28 font-medium tracking-tighter leading-8 text-center text-black max-md:mt-10 max-md:max-w-full"
       >
         Experience the future of marketing in the dynamic world of influencer
-        marketing at the Influence
-        <br /> Influence Exchange Confex & Awards Series 2024. Here are some
-        reasons why you shouldn't miss this event:
+        marketing. Here are some reasons why you shouldn&#39;t miss this event:
       </motion.div>
       {/* Render each card dynamically */}
       <div className="self-stretch mt-2 w-full max-md:max-w-full">

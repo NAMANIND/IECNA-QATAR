@@ -142,11 +142,11 @@ function Pastevents() {
           >
             <div className="flex flex-col grow pt-9 w-full text-black h-[300px] bg-white rounded-[32px] max-md:mt-10">
               <div className="flex flex-col self-start ml-9 max-md:ml-2.5">
-                <h1 className="text-4xl ">QATAR</h1>
+                <h1 className="text-4xl ">DUBAI</h1>
                 <h2
                   className={`mt-5 text-2xl tracking-tighter  ${work_sans.className} `}
                 >
-                  15<sup>th</sup> November 2024
+                  19<sup>th</sup> September 2024
                 </h2>
               </div>
             </div>
