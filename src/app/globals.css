@@ -218,7 +218,7 @@ label + .MuiInputBase-root,
 @media (max-width: 640px) {
   .scl {
     scale: 1 !important;
-    transform: rotate(0deg) !important;
+    transform: rotate(-1.5deg) !important;
   }
 }
 /* Button.module.css */
