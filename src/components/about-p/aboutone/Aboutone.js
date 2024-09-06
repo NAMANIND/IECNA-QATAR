@@ -173,7 +173,7 @@ function Aboutone() {
           className="sm:text-md text-xl  sm:px-20 px-0 font-medium text-justify tracking-tighter leading-6 text-white max-md:max-w-full slidein"
         >
           The Influence Exchange Confex &amp; Awards Series is back with its
-          next exciting installment, set to take place on November 15th, 2024,
+          next exciting installment, set to take place on November 19th, 2024,
           in the vibrant locale of Qatar. This premier event is designed to be
           the ultimate convergence of Ad Tech, Mar Tech, and Influencer
           Marketing, offering unparalleled opportunities for industry
