@@ -26,7 +26,7 @@ function ImageDownloadPage({
   useEffect(() => {
     const uploadImage = async () => {
       const formData = new FormData();
-      formData.append("upload_preset", "iecna_upload_uae");
+      formData.append("upload_preset", "iecna_upload_qatar");
       formData.append("file", imageData);
 
       try {
@@ -84,13 +84,13 @@ function ImageDownloadPage({
       if (field === "marketer") {
         const transformedImageUrl =
           `https://res.cloudinary.com/dmedpnbvc/image/upload/` +
-          `l_iecna_upload_uae:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_338,h_338,x_280,y_-68,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_24_bold_normal_left:${encodeURIComponent(
+          `l_iecna_upload_qatar:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_314,h_314,x_244,y_-56,r_max/c_scale/co_rgb:F30064,l_text:arial_34_bold_normal_left:${encodeURIComponent(
             title
-          )}/fl_layer_apply,x_280,y_165/co_rgb:FFFFFF,l_text:arial_24_normal_left:${encodeURIComponent(
+          )}/fl_layer_apply,x_240,y_165/co_rgb:FFFFFF,l_text:arial_34_normal_left:${encodeURIComponent(
             company
-          )}/fl_layer_apply,x_280,y_205/co_rgb:FFFFFF,l_text:arial_24_bold_normal_left:${encodeURIComponent(
+          )}/fl_layer_apply,x_240,y_205/co_rgb:FFFFFF,l_text:arial_34_normal_left:${encodeURIComponent(
             marco
-          )}/fl_layer_apply,x_280,y_245/pbs2kxsy5kyqs7rvthx8.jpg`;
+          )}/fl_layer_apply,x_240,y_245/tumzi1inxeuvgwqwfzjc.jpg`;
 
         //   const transformedImageUrl =
         // `https://res.cloudinary.com/dmedpnbvc/image/upload/` +
@@ -104,11 +104,11 @@ function ImageDownloadPage({
       } else {
         const transformedImageUrl =
           `https://res.cloudinary.com/dmedpnbvc/image/upload/` +
-          `l_iecna_upload_uae:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_338,h_338,x_280,y_-68,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_34_bold_normal_left:${encodeURIComponent(
+          `l_iecna_upload_qatar:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_314,h_314,x_244,y_-56,r_max/c_scale/co_rgb:F30064,l_text:arial_34_bold_normal_left:${encodeURIComponent(
             title
-          )}/fl_layer_apply,x_280,y_165/co_rgb:FFFFFF,l_text:arial_34_bold_normal_left:${encodeURIComponent(
+          )}/fl_layer_apply,x_240,y_165/co_rgb:FFFFFF,l_text:arial_34_normal_left:${encodeURIComponent(
             company
-          )}/fl_layer_apply,x_280,y_205/pbs2kxsy5kyqs7rvthx8.jpg`;
+          )}/fl_layer_apply,x_240,y_205/tumzi1inxeuvgwqwfzjc.jpg`;
 
         setTransformedImageUrl(transformedImageUrl);
       }
