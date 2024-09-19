@@ -419,7 +419,27 @@ const speakersData2 = [
 ];
 
 function SpeakerCard() {
-  const [speakers, setSpeakers] = React.useState([]); // State to store fetched speakers data
+  const [speakers, setSpeakers] = React.useState([]); // State to store fetched speakers data\
+  const [speakersuae, setSpeakersuae] = React.useState([]); // State to store fetched speakers data
+
+  React.useEffect(() => {
+    // Function to fetch speakers data from Firestore
+    const fetchSpeakers = async () => {
+      try {
+        const speakersCollection = await firestore
+          .collection("qatar-speakers")
+          .where("approved", "==", true) // Filter speakers where approved is true
+          .get();
+        const speakersData = speakersCollection.docs.map((doc) => doc.data());
+        setSpeakers(speakersData);
+      } catch (error) {
+        console.error("Error fetching speakers:", error);
+      }
+    };
+
+    // Call the fetchSpeakers function when component mounts
+    fetchSpeakers();
+  }, []); // Empty dependency array ensures useEffect runs only once
 
   React.useEffect(() => {
     // Function to fetch speakers data from Firestore
@@ -429,8 +449,10 @@ function SpeakerCard() {
           .collection("uae-speakers")
           .where("approved", "==", true) // Filter speakers where approved is true
           .get();
-        const speakersData = speakersCollection.docs.map((doc) => doc.data());
-        setSpeakers(speakersData);
+        const speakersDatauae = speakersCollection.docs.map((doc) =>
+          doc.data()
+        );
+        setSpeakersuae(speakersDatauae);
       } catch (error) {
         console.error("Error fetching speakers:", error);
       }
@@ -465,7 +487,7 @@ function SpeakerCard() {
           viewport={{ once: true, amount: 0.3 }}
           className="self-center text-5xl text-center text-black leading-[61.92px] max-md:max-w-full max-md:text-4xl"
         >
-          OUR PAST SPEAKERS
+          OUR SPEAKERS
         </motion.h2>
         <div className="mt-[120px] w-full max-md:mt-10 max-md:max-w-full">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 gap-y-[150px] w-full">
@@ -496,45 +518,6 @@ function SpeakerCard() {
           </div>
         </div>
       </section>
-
-      <section
-        className={`flex flex-col md:px-20 px-5 bg-white py-[20px] w-full   ${anton.className}`}
-      >
-        <motion.h2
-          initial={offscreen}
-          whileInView={onscreen}
-          viewport={{ once: true, amount: 0.3 }}
-          className="self-center text-5xl text-center pt-[200px] text-black leading-[61.92px] max-md:max-w-full max-md:text-4xl"
-        >
-          PAST KSA SPEAKERS
-        </motion.h2>
-        <div className="mt-[120px] w-full max-md:mt-10 max-md:max-w-full">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 gap-y-[150px] w-full">
-            {speakersData.map((speaker, index) => (
-              <motion.div
-                initial={offscreen}
-                whileInView={onscreen}
-                viewport={{ once: true, amount: 0.3 }}
-                key={index}
-              >
-                {/* Replace sample data with fetched speaker data */}
-                <DescriptionCard
-                  key={index}
-                  img={`https://www.theiecna.com/` + speaker.imageUrl} // Speaker image URL
-                  title={speaker.firstName + " " + speaker.lastName} // Full name
-                  job={speaker.company + ", " + speaker.jobTitle} // Job profile and company
-                  des={speaker.details} // Speaker description
-                  linkedin={speaker.linkedin} // LinkedIn URL
-                  instagram={speaker.instagram} // Instagram URL
-                  tiktok={speaker.tiktok} // TikTok URL
-                  snapchat={speaker.snapchat} // Snapchat URL
-                  youtube={speaker.youtube} // YouTube URL
-                />
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
       <section
         className={`flex flex-col md:px-20 px-5 bg-white pt-[280px] pb-[150px] w-full   ${anton.className}`}
       >
@@ -544,23 +527,25 @@ function SpeakerCard() {
           viewport={{ once: true, amount: 0.3 }}
           className="self-center text-5xl text-center uppercase text-black leading-[61.92px] max-md:max-w-full max-md:text-4xl"
         >
-          PAST Qatar SPEAKERS
+          OUR PAST SPEAKERS
         </motion.h2>
         <div className="mt-[120px] w-full max-md:mt-10 max-md:max-w-full">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 gap-y-[150px] w-full">
-            {speakersData2.map((speaker, index) => (
+            {speakersuae.map((speaker, index) => (
               <motion.div
                 initial={offscreen}
                 whileInView={onscreen}
                 viewport={{ once: true, amount: 0.3 }}
                 key={index}
               >
-                {/* Replace sample data with fetched speaker data */}
                 <DescriptionCard
                   key={index}
-                  img={`https://www.theiecna.com/` + speaker.imageUrl} // Speaker image URL
-                  title={speaker.name} // Full name
-                  job={speaker.details} // Job profile and company
+                  img={speaker.imageUrl} // Speaker image URL
+                  title={speaker.firstName + " " + speaker.lastName} // Full name
+                  job={
+                    speaker.jobTitle +
+                    (speaker.company ? ", " + speaker.company : "")
+                  } // Job profile and company
                   des={speaker.details} // Speaker description
                   linkedin={speaker.linkedin} // LinkedIn URL
                   instagram={speaker.instagram} // Instagram URL
