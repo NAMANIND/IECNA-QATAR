@@ -55,7 +55,7 @@ function Herosection() {
             Qatar
             <div className=" flex w-full justify-center mt-4 ">
               <span
-                className={`relative z-10 text-xl px-4 py-2 w-fit text-black bg-[#ccff00] rounded-full  ${work_sans.className}  `}
+                className={`relative z-10 text-xl px-4 py-2 w-fit text-black bg-[#ccff00] rounded-full  ${anton.className}  `}
               >
                 Invite Only Event
               </span>
