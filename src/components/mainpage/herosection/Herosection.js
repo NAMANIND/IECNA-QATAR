@@ -53,6 +53,14 @@ function Herosection() {
             {" "}
             <Countdown futureDate={futureDate} />
             Qatar
+            <div
+              className={` flex w-full justify-center mt-4 ${work_sans.className}  `}
+            >
+              <span className="relative z-10 text-xl px-4 py-2 w-fit text-black bg-[#ccff00] rounded-full">
+                {" "}
+                Invite Only Event
+              </span>
+            </div>
           </div>
           <div className="flex-auto sm:mt-6  mt-0 leading-[250%] sm:text-right text-center">
             19<sup className="text-white">th</sup> NOV 2024
