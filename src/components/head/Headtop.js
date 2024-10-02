@@ -1,10 +1,10 @@
 import * as React from "react";
 import { anton } from "@/styles/fonts";
-import headimg from "../../../public/images/head/about-hero.jpg";
+import headimg from "../../../public/images/head/uae/about.jpg";
 import awards from "../../../public/images/head/awards-hero.jpg";
-import sponsors from "../../../public/images/head/sponsors-hero.jpg";
+import sponsors from "../../../public/images/head/uae/sponsors.jpg";
 import speakers from "../../../public/images/head/speakers-hero.jpg";
-import register from "../../../public/images/head/register-hero.jpg";
+import register from "../../../public/images/head/uae/register.jpg";
 import register2 from "../../../public/images/head/register.png";
 import votee from "../../../public/images/head/vote2.png";
 import voteb from "../../../public/images/head/voteb.png";

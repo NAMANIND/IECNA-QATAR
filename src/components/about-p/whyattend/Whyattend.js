@@ -5,10 +5,11 @@ import { useState } from "react";
 import { anton, work_sans } from "@/styles/fonts";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import networking from "../../../../public/images/aboutnew/networking.jpg";
-import insights from "../../../../public/images/aboutnew/insights.jpg";
-import buiness from "../../../../public/images/aboutnew/business.jpg";
+import networking from "../../../../public/images/aboutnew/uae/networking.jpg";
+import insights from "../../../../public/images/aboutnew/uae/ii.jpg";
+import buiness from "../../../../public/images/aboutnew/uae/bo.jpg";
 import exclusive from "../../../../public/images/aboutnew/exclusive.jpg";
+import awardnre from "../../../../public/images/aboutnew/uae/awardnre.jpg";
 
 function Whyattend() {
   const cardData = [
@@ -29,7 +30,7 @@ function Whyattend() {
     },
     {
       title: "Recognition\nand Awards",
-      imageUrl: exclusive,
+      imageUrl: awardnre,
       text: "If your company or work in influencer marketing deserves recognition, participating in awards can offer visibility and credibility within the industry.",
     },
     {
@@ -138,7 +139,7 @@ function Whyattend() {
                     src={card.imageUrl}
                     width={600}
                     height={300}
-                    className="w-full aspect-[2.38] max-md:max-w-full rounded-[32px] relative scale-[1.12]  my-0 imgaward"
+                    className="w-full aspect-[2.38] object-cover max-md:max-w-full rounded-[32px] relative scale-[1.12]  my-0 imgaward"
                   />
                   <div className="self-center mt-11 text-sm max-md:mt-10 px-[30px]">
                     {card.text}

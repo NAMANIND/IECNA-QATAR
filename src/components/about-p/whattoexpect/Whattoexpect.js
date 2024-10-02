@@ -3,10 +3,10 @@ import * as React from "react";
 import Marquee from "react-fast-marquee";
 import { anton, work_sans } from "@/styles/fonts";
 import { motion } from "framer-motion";
-import engaging from "../../../../public/images/aboutnew/engaging.jpg";
-import curated from "../../../../public/images/aboutnew/curated.jpg";
+import engaging from "../../../../public/images/aboutnew/uae/ei.jpg";
+import curated from "../../../../public/images/aboutnew/uae/cp.jpg";
 import future from "../../../../public/images/about/future.jpg";
-import top from "../../../../public/images/aboutnew/top.jpg";
+import top from "../../../../public/images/aboutnew/uae/tni.jpg";
 
 import Image from "next/image";
 function Whattoexpect() {
@@ -43,7 +43,7 @@ function Whattoexpect() {
         "Whether you're a marketer seeking innovative strategies or an influencer eager to collaborate with brands, this event provides the perfect platform to expand your network and explore new business opportunities.",
     },
     {
-      title: "Industry Expertise: ",
+      title: "Industry Expertise",
       imgUrl: future,
       description:
         "Gain practical knowledge from industry experts, discover cutting-edge trends, and unlock the full potential of influencer marketing for your brand.",

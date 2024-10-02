@@ -707,7 +707,7 @@ const MultiPageForm = () => {
                 <div className="flex md:flex-row flex-col gap-4 w-full">
                   <Input
                     variant="underlined"
-                    label="Linkedin"
+                    label="Linkedin (Link) "
                     name="linkedin"
                     className="md:w-1/2 w-full "
                     value={formData.linkedin}
@@ -716,7 +716,7 @@ const MultiPageForm = () => {
                   />
                   <Input
                     variant="underlined"
-                    label="Instagram"
+                    label="Instagram (Link) "
                     name="instagram"
                     className="md:w-1/2 w-full "
                     value={formData.instagram}
@@ -729,7 +729,7 @@ const MultiPageForm = () => {
                 <div className="flex md:flex-row flex-col gap-4 w-full">
                   <Input
                     variant="underlined"
-                    label="Linkedin"
+                    label="Linkedin (Link) "
                     name="linkedin"
                     className="md:w-1/2 w-full "
                     value={formData.linkedin}
@@ -752,7 +752,7 @@ const MultiPageForm = () => {
                 <div className="flex md:flex-row flex-col gap-4 w-full">
                   <Input
                     variant="underlined"
-                    label="Instagram"
+                    label="Instagram (Link) "
                     name="instagram"
                     className="md:w-1/2 w-full "
                     value={formData.instagram}
@@ -761,7 +761,7 @@ const MultiPageForm = () => {
                   />
                   <Input
                     variant="underlined"
-                    label="Linkedin"
+                    label="Linkedin (Link) "
                     name="linkedin"
                     className="md:w-1/2 w-full "
                     value={formData.linkedin}
@@ -773,7 +773,7 @@ const MultiPageForm = () => {
               {formData.field === "influencer" && (
                 <div className="flex md:flex-row flex-col gap-4 w-full">
                   <Input
-                    label="Youtube"
+                    label="Youtube (Link) "
                     name="youtube"
                     className="md:w-1/2 w-full "
                     value={formData.youtube}
@@ -782,7 +782,7 @@ const MultiPageForm = () => {
                   />
                   <Input
                     variant="underlined"
-                    label="Snapchat"
+                    label="Snapchat (Link) "
                     name="snapchat"
                     className="md:w-1/2 w-full "
                     value={formData.snapchat}

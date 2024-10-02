@@ -1,81 +1,30 @@
-// import img from "../public";
-export const movies = [
-  {
-    id: 1,
-    poster: "/img/india/1.jpg",
-    name: "Awards",
-  },
-  {
-    id: 2,
-    poster: "/img/india/5.jpg",
-    name: "Awards",
-  },
+function importAll(r) {
+  let images = {};
+  r.keys().forEach((item, index) => {
+    images[item.replace("./", "")] = r(item).default || r(item);
+  });
+  console.log(images);
 
-  {
-    id: 3,
-    poster: "/img/india/3.jpg",
-    name: "Awards",
-  },
-  { id: 4, poster: "/img/india/4.jpg", name: "Awards" },
-  {
-    id: 5,
-    poster: "/img/india/2.jpg",
-    name: "Awards",
-  },
-];
+  return images;
+}
 
-const fullmovies = [
-  {
-    id: 1,
-    poster: "/img/india/1.jpg",
-    name: "Awards",
-  },
-  {
-    id: 2,
-    poster: "/img/india/5.jpg",
-    name: "Awards",
-  },
+const images = importAll(
+  require.context("../public/img/uae", false, /\.(png|jpe?g|svg|avif|jpg)$/)
+);
 
-  {
-    id: 3,
-    poster: "/img/india/3.jpg",
-    name: "Awards",
-  },
-  { id: 4, poster: "/img/india/4.jpg", name: "Awards" },
-  {
-    id: 5,
-    poster: "/img/india/2.jpg",
-    name: "Awards",
-  },
-  {
-    poster: "/img/india/6.jpg",
-    name: "Awards",
-  },
-  {
-    poster: "/img/india/7.jpg",
-    name: "Awards",
-  },
-  {
-    poster: "/img/india/8.jpg",
-    name: "Awards",
-  },
-  {
-    poster: "/img/india/9.jpg",
-    name: "Awards",
-  },
-  {
-    poster: "/img/india/10.jpg",
-    name: "Awards",
-  },
-  {
-    poster: "/img/india/11.jpg",
-    name: "Awards",
-  },
-  {
-    poster: "/img/india/12.jpg",
-    name: "Awards",
-  },
-];
+const imagePaths = Object.keys(images);
+
+export const movies = imagePaths.slice(0, 5).map((key, index) => ({
+  id: index + 1,
+  poster: "/img/uae/" + key,
+  name: "Awards",
+}));
+
+const fullmovies = imagePaths.map((key, index) => ({
+  id: index + 1,
+  poster: "/img/uae/" + key,
+  name: "Awards",
+}));
 
 export const randomMoviesSet1 = fullmovies
   .sort(() => Math.random() - 0.5)
