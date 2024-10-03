@@ -182,7 +182,7 @@ function Criteria() {
                   key={index}
                   className={`w-[48%] max-h-fit flex align-middle justify-center px-8 py-6 my-4 items-center rounded-2xl shadow-sm max-md:px-5 text-center ${
                     selectedHeading === heading
-                      ? "bg-[#ccff00]  hover-box-shadow-2    "
+                      ? "bg-[var(--brand)]  hover-box-shadow-2    "
                       : "bg-white"
                   }`}
                   onClick={() => handleHeadingClick(heading)}
@@ -206,14 +206,14 @@ function Criteria() {
                 {Object.keys(item).map((heading, index) =>
                   heading === selectedHeading ? (
                     <div key={index} className="text-white">
-                      <div className="mb-5 font-bold text-3xl text-[#ccff00]">
+                      <div className="mb-5 font-bold text-3xl text-[var(--brand)]">
                         {heading}
                       </div>
                       <div className="mb-5  text-xl">
                         {item[heading].description}
                       </div>
                       <div className="mt-20">
-                        <div className="mb-5 font-bold text-3xl text-[#ccff00]">
+                        <div className="mb-5 font-bold text-3xl text-[var(--brand)]">
                           Criteria
                         </div>
                         <ul className="list-disc pl-5  text-xl">

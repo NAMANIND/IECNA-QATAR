@@ -59,7 +59,9 @@ const DescriptionCard = ({
           )}
           <div className="absolute bottom-0 py-5 px-5  flex justify-between flex-col rounded-[32px] h-[210px]    bg-black w-full">
             <div>
-              <h2 className={`text-[24px] text-[#ccff00] ${anton.className}`}>
+              <h2
+                className={`text-[24px] text-[var(--brand)] ${anton.className}`}
+              >
                 {title}
               </h2>
               <p className={` text-[13px] my-4  ${work_sans.className}`}>

@@ -69,12 +69,12 @@ function Navbar() {
                 className={`flex space-x-8 text-white font-medium ${work_sans.className}`}
               >
                 <li className="relative group">
-                  <a href="/about" className=" hover:text-[#ccff00]">
+                  <a href="/about" className=" hover:text-[var(--brand)]">
                     ABOUT
                   </a>
                 </li>
                 <li className="relative group">
-                  <a href="/awards" className=" hover:text-[#ccff00]">
+                  <a href="/awards" className=" hover:text-[var(--brand)]">
                     AWARDS
                   </a>
                   {/* <div className="absolute top-full left-0 w-40 bg-white text-white z-10 hidden group-hover:block">
@@ -87,22 +87,22 @@ function Navbar() {
                   </div> */}
                 </li>
                 <li className="relative group">
-                  <a href="/speakers" className=" hover:text-[#ccff00]">
+                  <a href="/speakers" className=" hover:text-[var(--brand)]">
                     SPEAKERS
                   </a>
                 </li>
                 <li className="relative group">
-                  <a href="/sponsors" className=" hover:text-[#ccff00]">
+                  <a href="/sponsors" className=" hover:text-[var(--brand)]">
                     SPONSORS
                   </a>
                 </li>
                 <li style={{ display: navigation ? "none" : "flex" }}>
-                  <a href="/register" className=" hover:text-[#ccff00]">
+                  <a href="/register" className=" hover:text-[var(--brand)]">
                     REGISTER
                   </a>
                 </li>
                 <li>
-                  <a href="/vote" className=" hover:text-[#ccff00]">
+                  <a href="/vote" className=" hover:text-[var(--brand)]">
                     VOTE
                   </a>
                 </li>
@@ -133,12 +133,12 @@ function Navbar() {
             className={`space-y-6 text-white text-center font-medium text-4xl ${work_sans.className}`}
           >
             <li className="relative group">
-              <a href="/about" className=" hover:text-[#ccff00]">
+              <a href="/about" className=" hover:text-[var(--brand)]">
                 ABOUT
               </a>
             </li>
             <li className="relative group">
-              <a href="/awards" className=" hover:text-[#ccff00]">
+              <a href="/awards" className=" hover:text-[var(--brand)]">
                 AWARDS
               </a>
               {/* <div className="absolute top-full left-0 w-40 bg-white text-white z-10 hidden group-hover:block">
@@ -151,22 +151,22 @@ function Navbar() {
                   </div> */}
             </li>
             <li className="relative group">
-              <a href="/speakers" className=" hover:text-[#ccff00]">
+              <a href="/speakers" className=" hover:text-[var(--brand)]">
                 SPEAKERS
               </a>
             </li>
             <li className="relative group">
-              <a href="/sponsors" className=" hover:text-[#ccff00]">
+              <a href="/sponsors" className=" hover:text-[var(--brand)]">
                 SPONSORS
               </a>
             </li>
             <li style={{ display: navigation ? "none" : "flex" }}>
-              <a href="/register" className=" hover:text-[#ccff00]">
+              <a href="/register" className=" hover:text-[var(--brand)]">
                 REGISTER
               </a>
             </li>
             <li>
-              <a href="/vote" className=" hover:text-[#ccff00]">
+              <a href="/vote" className=" hover:text-[var(--brand)]">
                 VOTE
               </a>
             </li>

@@ -153,7 +153,7 @@ function Mediapartners() {
                   viewport={{ once: true, amount: 0.3 }}
                   className="flex flex-col px-11 mt-7 max-md:px-5"
                 >
-                  <div className=" font-bold text-[#ccff00]">
+                  <div className=" font-bold text-[var(--brand)]">
                     {sponsor.name}
                   </div>
                   <div className="mt-6 text-sm tracking-tight leading-5">

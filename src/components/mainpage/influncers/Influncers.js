@@ -83,7 +83,7 @@ function Influncers() {
         speed={40}
         className=" z-10  text-[36px] w-full  "
         autoFill={true}
-        style={{ height: "80px", color: "#CCFF00" }}
+        style={{ height: "80px", color: "var(--brand)" }}
       >
         &nbsp; REGISTER - REGISTER - REGISTER - REGISTER - REGISTER - REGISTER -
         REGISTER -

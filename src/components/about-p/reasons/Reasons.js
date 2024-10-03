@@ -96,7 +96,7 @@ function Reasons() {
             key={title}
           >
             <span className="p-8 mb-4 flex sm:scale-100 scale-80  h-32 w-32 items-center justify-center rounded-[1.8rem]  bg-black ">
-              <Icon className="h-12 w-12 text-[#ccff00]" />
+              <Icon className="h-12 w-12 text-[var(--brand)]" />
             </span>
             <h3 className="mb-2 text-3xl font-medium text-black">{title}</h3>
             <p className="text-lg  text-gray-600 ">{text}</p>

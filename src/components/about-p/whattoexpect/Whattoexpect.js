@@ -126,7 +126,7 @@ function Whattoexpect() {
                   }}
                 >
                   <div
-                    className={`mt-12 text-5xl text-[#ccff00] uppercase leading-[62px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[58px] ${anton.className}`}
+                    className={`mt-12 text-5xl text-[var(--brand)] uppercase leading-[62px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-[58px] ${anton.className}`}
                   >
                     {card.title}
                   </div>

@@ -53,12 +53,12 @@ function Well() {
           <div className="flex relative sm:items-start sm:ml-10 ml-0 items-center flex-col md:p-10 p-5 uppercase md:mt-10 mt-5 max-md:max-w-full">
             <div className="text-4xl leading-10 text-white max-md:max-w-full">
               Well, they say third time is a{" "}
-              <span className="text-[#ccff00]">charm!</span>
+              <span className="text-[var(--brand)]">charm!</span>
               <br />
               And IXG is back with the{" "}
-              <span className="text-[#ccff00]">fifth edition </span>
+              <span className="text-[var(--brand)]">fifth edition </span>
               <br /> of the much awaited{" "}
-              <span className="text-[#ccff00]">IEC&A!</span>
+              <span className="text-[var(--brand)]">IEC&A!</span>
             </div>
             {/* <div className="flex gap-1.5 self-start w-full  text-lg font-semibold tracking-tighter leading-[90px] rounded-[40px]">
               <Button href="./register" color="green" img="arrow">

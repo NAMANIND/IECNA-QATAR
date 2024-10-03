@@ -40,7 +40,7 @@ function EventDetails() {
         </time>
 
         <div
-          className={`self-end sm:mt-12 my-5 text-5xl uppercase  font-bold  text-[#ccff00] tracking-tighter	 leading-[56px] w-[282px]  max-md:text-4xl max-md:leading-[52px] ${work_sans.className}  `}
+          className={`self-end sm:mt-12 my-5 text-5xl uppercase  font-bold  text-[var(--brand)] tracking-tighter	 leading-[56px] w-[282px]  max-md:text-4xl max-md:leading-[52px] ${work_sans.className}  `}
         >
           VENUE
           <br />
@@ -101,7 +101,7 @@ function Venue() {
             pauseOnHover
           >
             <h2
-              className={`text-4xl text-center text-white group-hover:text-[#ccff00]  ${anton.className} `}
+              className={`text-4xl text-center text-white group-hover:text-[var(--brand)]  ${anton.className} `}
             >
               &nbsp; REGISTER - REGISTER - REGISTER - REGISTER - REGISTER -
               REGISTER - REGISTER - REGISTER -
@@ -151,7 +151,7 @@ function Venue() {
           </motion.div>
           <div className="flex flex-col mr-10 w-[44%] max-md:ml-0 max-md:w-full">
             <div className="flex flex-col self-stretch px-5 my-auto font-bold text-right max-md:mt-10 max-md:max-w-full">
-              <h2 className="text-3xl py-5 tracking-tighter text-[#ccff00] uppercase leading-[56px] max-md:max-w-full">
+              <h2 className="text-3xl py-5 tracking-tighter text-[var(--brand)] uppercase leading-[56px] max-md:max-w-full">
                 We will be waiting for you, HERE!
               </h2>
               <EventDetails />

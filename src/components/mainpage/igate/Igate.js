@@ -61,7 +61,7 @@ function Ig() {
               >
                 19<sup className="text-white ">th</sup> NOV 2024
               </time>
-              <p className="mt-1 text-[#ccff00] uppercase text-7xl text-left leading-[117%]  sm:mb-0 mb-4  font-bold">
+              <p className="mt-1 text-[var(--brand)] uppercase text-7xl text-left leading-[117%]  sm:mb-0 mb-4  font-bold">
                 QATAR
               </p>
             </div>
@@ -96,7 +96,7 @@ function Ig() {
           >
             19<sup className="text-white ">th</sup> November 2024
           </time>
-          <p className="mt-5 text-[#ccff00] uppercase leading-[117%]  sm:mb-0 mb-4  font-bold">
+          <p className="mt-5 text-[var(--brand)] uppercase leading-[117%]  sm:mb-0 mb-4  font-bold">
             QATAR
           </p>
         </div>

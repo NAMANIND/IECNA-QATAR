@@ -115,12 +115,12 @@ function Whoshould() {
                   <div
                     className={`shrink-0 my-12 h-px  max-md:my-10 
                   
-                  ${index % 3 === 1 ? "bg-[#ccff00]" : "bg-white"}
+                  ${index % 3 === 1 ? "bg-[var(--brand)]" : "bg-white"}
                   `}
                   />
                 </div>
                 <div className="text-xl font-medium tracking-tighter leading-7 text-white flex flex-col justify-between max-md:mt-10">
-                  <span className="text-3xl font-bold text-[#ccff00] uppercase">
+                  <span className="text-3xl font-bold text-[var(--brand)] uppercase">
                     {card.title}
                   </span>
                   <br />

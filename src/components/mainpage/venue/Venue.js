@@ -68,7 +68,7 @@ function Venue() {
             >
               WE WILL BE WAITING FOR YOU!
             </div>
-            <div className="flex flex-col px-16 py-8 mt-8 text-5xl  md:rounded-l-[40px]  bg-black text-[#ccff00] max-md:px-5 max-md:mt-10 max-md:max-w-full max-md:text-4xl">
+            <div className="flex flex-col px-16 py-8 mt-8 text-5xl  md:rounded-l-[40px]  bg-black text-[var(--brand)] max-md:px-5 max-md:mt-10 max-md:max-w-full max-md:text-4xl">
               <div
                 className={`tracking-tighter leading-[117%] max-md:text-4xl ${work_sans.className}`}
               >

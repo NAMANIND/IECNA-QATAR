@@ -48,14 +48,14 @@ function Herosection() {
             5<sup className="text-white">th</sup> EDITION
           </div>
           <div
-            className={`flex-auto self-stretch sm:mb-5 mb-5 text-7xl text-center text-[#ccff00] max-md:max-w-full max-md:text-4xl ${ephesis.className}`}
+            className={`flex-auto self-stretch sm:mb-5 mb-5 text-7xl text-center text-[var(--brand)] max-md:max-w-full max-md:text-4xl ${ephesis.className}`}
           >
             {" "}
             <Countdown futureDate={futureDate} />
             Qatar
             <div className=" flex w-full justify-center mt-4 ">
               <span
-                className={`relative z-10 text-xl px-4 py-2 w-fit text-black bg-[#ccff00] rounded-full  ${anton.className}  `}
+                className={`relative z-10 text-xl px-4 py-2 w-fit text-black bg-[var(--brand)] rounded-full  ${anton.className}  `}
               >
                 Invite Only Event
               </span>
@@ -74,7 +74,7 @@ function Herosection() {
           </text>
         </svg>
 
-        <div className="bg-[#ccff00] py-1 px-2 mt-5">
+        <div className="bg-[var(--brand)] py-1 px-2 mt-5">
           <svg
             viewBox="0 0 578 20"
             className={`w-[100%] ${work_sans.className} font-light  `}

@@ -61,7 +61,7 @@ function Ourmisson() {
             autoFill
           >
             <h2
-              className={`text-4xl text-center text-[#ccff00] ${anton.className} `}
+              className={`text-4xl text-center text-[var(--brand)] ${anton.className} `}
             >
               &nbsp; DUBAI * RIYADH * MUMBAI * INDONESIA * QATAR * DUBAI *
               RIYADH * MUMBAI * INDONESIA * QATAR *

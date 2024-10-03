@@ -85,7 +85,7 @@ function Oursponsor() {
                   <div className="self-center font-medium text-center">
                     {sponsor.title}
                   </div>
-                  <div className="mt-9 font-bold text-[#ccff00]">
+                  <div className="mt-9 font-bold text-[var(--brand)]">
                     {sponsor.name}
                   </div>
                   <div className="mt-6 text-sm tracking-tight leading-5">

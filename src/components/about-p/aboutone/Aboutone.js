@@ -86,12 +86,13 @@ function InfluencerMarketingStats({ title, value, description }) {
   return (
     <div className="flex flex-col max-md:mt-10">
       <div
-        className={`text-6xl text-[#ccff00]   leading-[62.08px] max-md:text-4xl ${anton.className} `}
+        className={`text-6xl text-[var(--brand)]   leading-[62.08px] max-md:text-4xl ${anton.className} `}
       >
         {value}
       </div>
       <div className="mt-7 text-xl font-medium tracking-tighter leading-7 text-white">
-        <span className="font-bold text-[#ccff00]">{title}:</span> {description}
+        <span className="font-bold text-[var(--brand)]">{title}:</span>{" "}
+        {description}
       </div>
     </div>
   );
@@ -208,7 +209,7 @@ function Aboutone() {
           potential of ad tech, mar tech & influencer marketing for your brand.
           <br />
           <br />
-          <span className="text-[#ccff00]">
+          <span className="text-[var(--brand)]">
             {" "}
             Don&#39;t miss this opportunity to be part of a global hub of
             innovation and excellence. Join us in Qatar for a transformative
@@ -294,7 +295,7 @@ function Aboutone() {
             ))}
             <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
               <p className="relative text-base font-medium tracking-tighter leading-5 text-justify text-white max-md:mt-10">
-                <span className="text-xl font-bold text-[#ccff00]">
+                <span className="text-xl font-bold text-[var(--brand)]">
                   Instagram Growth:{" "}
                 </span>{" "}
                 Instagram Influencer marketing in Qatar has witnessed

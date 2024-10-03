@@ -10,7 +10,7 @@ function Sponsors() {
     <div>
       <Headtop head="Sponsors" />
 
-      <Oursponsor />
+      {/* <Oursponsor /> */}
       <Mediapartners />
       <Oursponsor2 />
 
