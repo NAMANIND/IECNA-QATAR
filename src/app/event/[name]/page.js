@@ -119,6 +119,13 @@ function page({ params }) {
         "megha.kottary@influenceexchangegroup.com",
       ],
     },
+    suhel: {
+      FormType: "general",
+      emails: [
+        "20bei033@ietdavv.edu.in",
+        "mohamed.suhel@influenceexchangegroup.com",
+      ],
+    },
   };
 
   if (formData.hasOwnProperty(nameArr[0])) {
