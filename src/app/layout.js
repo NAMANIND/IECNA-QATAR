@@ -3,6 +3,7 @@ import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
 import { inter } from "@/styles/fonts";
 import logo from "../../public/logo.svg";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   title: "Influence exchange confex & Awards | 5th edition",
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className={`text-foreground bg-background ${inter.className}`}>
+        <Analytics id="G-1ZQZQZQZQZ" />
         <Navbar />
         {children}
         <Footer />
