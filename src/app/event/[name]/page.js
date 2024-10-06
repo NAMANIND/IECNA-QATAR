@@ -42,21 +42,21 @@ export async function generateMetadata({ params }) {
     }
   }
 
-  return {
-    title: "IEC&A Registration",
-    description: "Influence Exchange Confex and Awards Registration",
-    openGraph: {
-      title: "Register for the event",
-      description: "Influence Exchange Confex and Awards Registration",
+  // return {
+  //   title: "IEC&A Registration",
+  //   description: "Influence Exchange Confex and Awards Registration",
+  //   openGraph: {
+  //     title: "Register for the event",
+  //     description: "Influence Exchange Confex and Awards Registration",
 
-      images: [
-        {
-          url: "https://qatar.theiena.com/meta.jpg",
-          alt: "Register for the event",
-        },
-      ],
-    },
-  };
+  //     images: [
+  //       {
+  //         url: "https://qatar.theiena.com/meta.jpg",
+  //         alt: "Register for the event",
+  //       },
+  //     ],
+  //   },
+  // };
 }
 
 function page({ params }) {
