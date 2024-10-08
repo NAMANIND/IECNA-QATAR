@@ -14,25 +14,43 @@ import uae_businessoutlook from "../../../../public/images/sponsors/uae/asia-bus
 import uae_gazet from "../../../../public/images/sponsors/uae/gazet-international.png";
 import uae_utoday from "../../../../public/images/sponsors/uae/utoday.png";
 import uae_mideastinfo from "../../../../public/images/sponsors/uae/mid.png";
+import uae_approachentertainment from "../../../../public/images/sponsors/uae/approchentertainment.png";
+import uae_approachbollywood from "../../../../public/images/sponsors/uae/approchbollywood.png";
 
 function Mediapartners() {
   // Define data for sponsors
   const sponsors = [
+    // {
+    //   name: "iMPACT",
+    //   description:
+    //     "iMPACT serves as a dedicated media outlet for nonprofits, civil society, and socially-focused businesses, offering curated news, trends, insights, and best practices from influential voices within the development sector.",
+    //   imageUrl: "/images/sponsors/uae/og/4.png",
+    //   logoUrl: uae_impact,
+    //   link: "https://www.theimpactmagazine.org/",
+    // },
+    // {
+    //   name: "AI Time Journal",
+    //   description:
+    //     "AI Time Journal explores how Artificial Intelligence and Exponential Technologies bring opportunities for people, organizations, and societies to increase their wealth and health. They provide insights from industry leaders and experts, and use cases of exponential technologies across multiple fields, including finance, healthcare, and education.",
+    //   imageUrl: "/images/sponsors/uae/og/6.png",
+    //   logoUrl: uae_ai,
+    //   link: "https://www.aitimejournal.com/",
+    // },
     {
-      name: "iMPACT",
+      name: "Approach Entertainment",
       description:
-        "iMPACT serves as a dedicated media outlet for nonprofits, civil society, and socially-focused businesses, offering curated news, trends, insights, and best practices from influential voices within the development sector.",
-      imageUrl: "/images/sponsors/uae/og/4.png",
-      logoUrl: uae_impact,
-      link: "https://www.theimpactmagazine.org/",
+        "Approach Entertainment Group is a distinguished leader in the fields of Celebrity Management, Film Production, Advertising and Corporate Film Solutions, Film Marketing, and Events & Entertainment Marketing. Complementing these core services, Approach Communications operates as a premier PR and Integrated Communications agency, catering to diverse sectors including Corporate, Healthcare, Entertainment, Finance, Education, and Social domains. The group's unwavering commitment to excellence has been recognized through numerous prestigious accolades, such as The Biz India 2010 Award from the World Confederation of Business, the Service Excellence Award from the Worldwide Marketing Organization, the PR Agency of the Year Award, and the Yuva Ratn Award.",
+      imageUrl: "/images/sponsors/uae/og/aprochentertainment.png",
+      logoUrl: uae_approachentertainment,
+      link: "https://www.approachentertainment.com/",
     },
     {
-      name: "AI Time Journal",
+      name: "Approach Bollywood",
       description:
-        "AI Time Journal explores how Artificial Intelligence and Exponential Technologies bring opportunities for people, organizations, and societies to increase their wealth and health. They provide insights from industry leaders and experts, and use cases of exponential technologies across multiple fields, including finance, healthcare, and education.",
-      imageUrl: "/images/sponsors/uae/og/6.png",
-      logoUrl: uae_ai,
-      link: "https://www.aitimejournal.com/",
+        "Approach Bollywood is a comprehensive newswire service, portal, and app dedicated to creating and distributing multimedia Bollywood and entertainment content for newspapers, magazines, TV channels, radio, apps, and all digital media platforms. Launched by Approach Entertainment, India’s premier group specializing in Celebrity Management, Film Production, Advertising and Corporate Film Solutions, Film Marketing, and Events & Entertainment Marketing, Approach Bollywood serves as a dynamic platform for delivering entertainment news across a wide array of media channels.",
+      imageUrl: "/images/sponsors/uae/og/approchbolywood.png",
+      logoUrl: uae_approachbollywood,
+      link: "https://www.approachbollywood.com/",
     },
     {
       name: "Abudhabi Explorer",
@@ -42,22 +60,22 @@ function Mediapartners() {
       logoUrl: uae_explorer,
       link: "https://www.instagram.com/abudhabi.explorer?igsh=eWIwN3Vrc3IwY2Y0",
     },
-    {
-      name: "Business Outreach",
-      description:
-        "Business Outreach is one of the fastest-growing business magazines in India, where CEOs, CXOs, and top executives of a company share their insights about their industry and initiate productive discussions about the latest market trends with the editorial staff and peers.",
-      imageUrl: "/images/sponsors/uae/og/3.png",
-      logoUrl: uae_outreach,
-      link: "https://www.businessoutreach.in/",
-    },
-    {
-      name: "Gulf Good News",
-      description:
-        "Gulf Good News is the most reliable source for good news. Gulf Good News is a Google News approved high authority domain. Our aim is to spread positive news from within GCC & all around the world to uplift and inspire millions to become more optimistic.",
-      imageUrl: "/images/sponsors/uae/og/5.png",
-      logoUrl: uae_gulf,
-      link: "https://gulfgoodnews.com",
-    },
+    // {
+    //   name: "Business Outreach",
+    //   description:
+    //     "Business Outreach is one of the fastest-growing business magazines in India, where CEOs, CXOs, and top executives of a company share their insights about their industry and initiate productive discussions about the latest market trends with the editorial staff and peers.",
+    //   imageUrl: "/images/sponsors/uae/og/3.png",
+    //   logoUrl: uae_outreach,
+    //   link: "https://www.businessoutreach.in/",
+    // },
+    // {
+    //   name: "Gulf Good News",
+    //   description:
+    //     "Gulf Good News is the most reliable source for good news. Gulf Good News is a Google News approved high authority domain. Our aim is to spread positive news from within GCC & all around the world to uplift and inspire millions to become more optimistic.",
+    //   imageUrl: "/images/sponsors/uae/og/5.png",
+    //   logoUrl: uae_gulf,
+    //   link: "https://gulfgoodnews.com",
+    // },
     {
       name: "Latin & Gulf Magazine",
       description:
@@ -82,14 +100,14 @@ function Mediapartners() {
       logoUrl: uae_gazet,
       link: "https://gazetinternational.com/",
     },
-    {
-      name: "U. Today",
-      description:
-        "U. Today is a leading cryptocurrency and blockchain media outlet launched in 2017, covering trends in Web3, crypto, blockchain, and AI. With a global team, it provides a range of content including news, guides, reviews, and price forecasts to its three million readers.",
-      imageUrl: "/images/sponsors/uae/og/utoday.png",
-      logoUrl: uae_utoday,
-      link: "https://u.today/",
-    },
+    // {
+    //   name: "U. Today",
+    //   description:
+    //     "U. Today is a leading cryptocurrency and blockchain media outlet launched in 2017, covering trends in Web3, crypto, blockchain, and AI. With a global team, it provides a range of content including news, guides, reviews, and price forecasts to its three million readers.",
+    //   imageUrl: "/images/sponsors/uae/og/utoday.png",
+    //   logoUrl: uae_utoday,
+    //   link: "https://u.today/",
+    // },
     {
       name: "Mid East Info",
       description:
