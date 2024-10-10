@@ -19,8 +19,8 @@ import { work_sans } from "@/styles/fonts";
 export const MuiPhone = ({ value, onChange, ...restProps }) => {
   const { inputValue, handlePhoneValueChange, inputRef, country, setCountry } =
     usePhoneInput({
-      //dubai
-      defaultCountry: "ae",
+      //qatar
+      defaultCountry: "qa",
       value,
       countries: defaultCountries,
       onChange: (data) => {
