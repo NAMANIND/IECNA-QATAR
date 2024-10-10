@@ -16,26 +16,14 @@ import uae_utoday from "../../../../public/images/sponsors/uae/utoday.png";
 import uae_mideastinfo from "../../../../public/images/sponsors/uae/mid.png";
 import uae_approachentertainment from "../../../../public/images/sponsors/uae/approchentertainment.png";
 import uae_approachbollywood from "../../../../public/images/sponsors/uae/approchbollywood.png";
+import uae_publicfront from "../../../../public/images/sponsors/uae/publicfront.png";
+import uae_brandsreviewmagazine from "../../../../public/images/sponsors/uae/brandsreviewmagazine.png";
+import uae_eyeofriyadh from "../../../../public/images/sponsors/uae/eyeofriyadh.png";
+import uae_eyeofdubai from "../../../../public/images/sponsors/uae/eyeofdubai.png";
 
 function Mediapartners() {
   // Define data for sponsors
   const sponsors = [
-    // {
-    //   name: "iMPACT",
-    //   description:
-    //     "iMPACT serves as a dedicated media outlet for nonprofits, civil society, and socially-focused businesses, offering curated news, trends, insights, and best practices from influential voices within the development sector.",
-    //   imageUrl: "/images/sponsors/uae/og/4.png",
-    //   logoUrl: uae_impact,
-    //   link: "https://www.theimpactmagazine.org/",
-    // },
-    // {
-    //   name: "AI Time Journal",
-    //   description:
-    //     "AI Time Journal explores how Artificial Intelligence and Exponential Technologies bring opportunities for people, organizations, and societies to increase their wealth and health. They provide insights from industry leaders and experts, and use cases of exponential technologies across multiple fields, including finance, healthcare, and education.",
-    //   imageUrl: "/images/sponsors/uae/og/6.png",
-    //   logoUrl: uae_ai,
-    //   link: "https://www.aitimejournal.com/",
-    // },
     {
       name: "Approach Entertainment",
       description:
@@ -60,22 +48,6 @@ function Mediapartners() {
       logoUrl: uae_explorer,
       link: "https://www.instagram.com/abudhabi.explorer?igsh=eWIwN3Vrc3IwY2Y0",
     },
-    // {
-    //   name: "Business Outreach",
-    //   description:
-    //     "Business Outreach is one of the fastest-growing business magazines in India, where CEOs, CXOs, and top executives of a company share their insights about their industry and initiate productive discussions about the latest market trends with the editorial staff and peers.",
-    //   imageUrl: "/images/sponsors/uae/og/3.png",
-    //   logoUrl: uae_outreach,
-    //   link: "https://www.businessoutreach.in/",
-    // },
-    // {
-    //   name: "Gulf Good News",
-    //   description:
-    //     "Gulf Good News is the most reliable source for good news. Gulf Good News is a Google News approved high authority domain. Our aim is to spread positive news from within GCC & all around the world to uplift and inspire millions to become more optimistic.",
-    //   imageUrl: "/images/sponsors/uae/og/5.png",
-    //   logoUrl: uae_gulf,
-    //   link: "https://gulfgoodnews.com",
-    // },
     {
       name: "Latin & Gulf Magazine",
       description:
@@ -100,14 +72,6 @@ function Mediapartners() {
       logoUrl: uae_gazet,
       link: "https://gazetinternational.com/",
     },
-    // {
-    //   name: "U. Today",
-    //   description:
-    //     "U. Today is a leading cryptocurrency and blockchain media outlet launched in 2017, covering trends in Web3, crypto, blockchain, and AI. With a global team, it provides a range of content including news, guides, reviews, and price forecasts to its three million readers.",
-    //   imageUrl: "/images/sponsors/uae/og/utoday.png",
-    //   logoUrl: uae_utoday,
-    //   link: "https://u.today/",
-    // },
     {
       name: "Mid East Info",
       description:
@@ -115,6 +79,38 @@ function Mediapartners() {
       imageUrl: "/images/sponsors/uae/og/mid.png",
       logoUrl: uae_mideastinfo,
       link: "https://mid-east.info/",
+    },
+    {
+      name: "Public Front",
+      description:
+        '"Public Front" National English Weekly is among India\'s leading newspapers and journals (since 2002), with wide circulation at home and abroad (in print and e-paper modes). It covers local, national, and international news on ongoing political situations, current affairs, business and economic affairs, legal affairs, world affairs, cinema and entertainment, and sports news, among other subjects of national and global importance. We are a dedicated team of dynamic aristocrats who voice facts to the public.',
+      imageUrl: "/images/sponsors/uae/og/publicfront.png",
+      logoUrl: uae_publicfront,
+      link: "https://publicfront.news/",
+    },
+    {
+      name: "Brands Review Magazine",
+      description:
+        "Brands Review Magazine is a leading online news portal from London for all the latest insights on brands related to lifestyle, products, technology solutions, health and wellness, wealth management services, and the environment. We provide you with the perfect platform to showcase your brand and company to the world by being a part of your success story. We enjoy 1 million views annually on our website and enjoy a healthy engagement on our social media platforms every month. We deliver the latest news from the financial world and keenly promote innovative solutions in the industry.",
+      imageUrl: "/images/sponsors/uae/og/brandsreviewmagazine.png",
+      logoUrl: uae_brandsreviewmagazine,
+      link: "https://brandsreviewmagazine.com/",
+    },
+    {
+      name: "Eye of Riyadh",
+      description:
+        "Eye of Riyadh is a leading platform in the region, specializing in media and digital marketing strategies. With over one million visitors, eyeofriyadh.com is a premier resource for decision-makers exploring investment opportunities and advanced marketing solutions. It attracts professionals from diverse sectors, including real estate, construction, tourism, and healthcare, primarily serving senior management, executives, and investors. As one of the most popular websites in the GCC, Eye of Riyadh connects citizens, residents, and tourists seeking insights about Riyadh and its investment prospects.",
+      imageUrl: "/images/sponsors/uae/og/eyeofriyadh.png",
+      logoUrl: uae_eyeofriyadh,
+      link: "https://www.eyeofriyadh.com/",
+    },
+    {
+      name: "Eye of Dubai",
+      description:
+        "Eye of Dubai is a leading platform in the region, specializing in media and digital marketing strategies. With over one million visitors, eye of dubai is a premier resource for decision-makers exploring investment opportunities and advanced marketing solutions. It attracts professionals from diverse sectors, including real estate, construction, tourism, and healthcare, primarily serving senior management, executives, and investors. As one of the most popular websites in the GCC, Eye of Dubai connects citizens, residents, and tourists seeking insights about Dubai and its investment prospects.",
+      imageUrl: "/images/sponsors/uae/og/eyeofdubai.png",
+      logoUrl: uae_eyeofdubai,
+      link: "https://www.eyeofdubai.com/",
     },
   ];
 

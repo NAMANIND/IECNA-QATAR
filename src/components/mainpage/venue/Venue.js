@@ -4,7 +4,7 @@ import Button from "@/components/button/Button";
 import { anton, work_sans } from "@/styles/fonts";
 import { motion } from "framer-motion";
 import Marquee from "react-fast-marquee";
-import img2 from "../../../../public/images/home/dv1.jpg";
+import img2 from "../../../../public/images/home/qa1.jpg";
 import Image from "next/image";
 
 function Venue() {

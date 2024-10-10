@@ -3,7 +3,7 @@ import * as React from "react";
 import { anton, work_sans } from "@/styles/fonts";
 import Marquee from "react-fast-marquee";
 import Button from "@/components/button/Button";
-import img from "../../../../public/images/home/dv2.jpg";
+import img from "../../../../public/images/home/qa2.jpg";
 import Image from "next/image";
 
 import { motion } from "framer-motion";
