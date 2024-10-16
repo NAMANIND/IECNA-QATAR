@@ -112,6 +112,14 @@ function Mediapartners() {
       logoUrl: uae_eyeofdubai,
       link: "https://www.eyeofdubai.com/",
     },
+    {
+      name: "Business Outreach",
+      description:
+        "Business Outreach is one of the fastest-growing business magazines in India, where CEOs, CXOs, and top executives of a company share their insights about their industry and initiate productive discussions about the latest market trends with the editorial staff and peers.",
+      imageUrl: "/images/sponsors/uae/og/3.png",
+      logoUrl: uae_outreach,
+      link: "https://www.businessoutreach.in/",
+    },
   ];
 
   const offscreen = {

@@ -76,16 +76,25 @@ function Herosection() {
 
         <div className="bg-[var(--brand)] py-1 px-2 mt-5">
           <svg
-            viewBox="0 0 578 20"
+            viewBox="0 0 469 18"
             className={`w-[100%] ${work_sans.className} font-light  `}
           >
-            <text
+            {/* <text
               x="0"
               y="16"
               fill="#000000"
               className="text-black font-semibold tracking-tighter  "
             >
               CONNECTING INFLUENCERS, INNOVATING BRANDS, CELEBRATING EXCELLENCE
+            </text> */}
+
+            <text
+              x="0"
+              y="14"
+              fill="#000000"
+              className="text-black font-semibold tracking-tighter uppercase"
+            >
+              Initiative to promote diverse creative economy in Qatar
             </text>
           </svg>
         </div>
