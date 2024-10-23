@@ -20,7 +20,8 @@ import uae_publicfront from "../../../../public/images/sponsors/uae/publicfront.
 import uae_brandsreviewmagazine from "../../../../public/images/sponsors/uae/brandsreviewmagazine.png";
 import uae_eyeofriyadh from "../../../../public/images/sponsors/uae/eyeofriyadh.png";
 import uae_eyeofdubai from "../../../../public/images/sponsors/uae/eyeofdubai.png";
-
+import uae_globalhues from "../../../../public/images/sponsors/uae/global-hues.png";
+import uae_startupnews from "../../../../public/images/sponsors/uae/startupnews.png";
 function Mediapartners() {
   // Define data for sponsors
   const sponsors = [
@@ -119,6 +120,30 @@ function Mediapartners() {
       imageUrl: "/images/sponsors/uae/og/3.png",
       logoUrl: uae_outreach,
       link: "https://www.businessoutreach.in/",
+    },
+    {
+      name: "AI Time Journal",
+      description:
+        "AI Time Journal explores how Artificial Intelligence and Exponential Technologies bring opportunities for people, organizations, and societies to increase their wealth and health. They provide insights from industry leaders and experts, and use cases of exponential technologies across multiple fields, including finance, healthcare, and education.",
+      imageUrl: "/images/sponsors/uae/og/6.png",
+      logoUrl: uae_ai,
+      link: "https://www.aitimejournal.com/",
+    },
+    {
+      name: "The Global Hues",
+      description:
+        "The Global Hues is a leading media platform focused on delivering engaging and insightful content across various industries. They specialize in offering comprehensive news, trends, and analysis, providing valuable perspectives and information to a global audience.",
+      imageUrl: "/images/sponsors/uae/og/global-hues.png",
+      logoUrl: uae_globalhues,
+      link: "https://www.theglobalhues.com/",
+    },
+    {
+      name: "Startupnews.fyi",
+      description:
+        "Startupnews.fyi is a media platform dedicated to providing the latest news, insights, and resources for the startup community. They focus on delivering timely updates, industry trends, and expert opinions to support entrepreneurs, investors, and innovators. As a media partner, Startup.fyi offers valuable exposure and thought leadership within the startup ecosystem.",
+      imageUrl: "/images/sponsors/uae/og/startupnews.png",
+      logoUrl: uae_startupnews,
+      link: "https://startupnews.fyi/",
     },
   ];
 
