@@ -22,6 +22,8 @@ import uae_eyeofriyadh from "../../../../public/images/sponsors/uae/eyeofriyadh.
 import uae_eyeofdubai from "../../../../public/images/sponsors/uae/eyeofdubai.png";
 import uae_globalhues from "../../../../public/images/sponsors/uae/global-hues.png";
 import uae_startupnews from "../../../../public/images/sponsors/uae/startupnews.png";
+import uae_psuconnect from "../../../../public/images/sponsors/uae/psuconnect.png";
+import uae_marksmendaily from "../../../../public/images/sponsors/uae/marksmendaily.png";
 function Mediapartners() {
   // Define data for sponsors
   const sponsors = [
@@ -144,6 +146,23 @@ function Mediapartners() {
       imageUrl: "/images/sponsors/uae/og/startupnews.png",
       logoUrl: uae_startupnews,
       link: "https://startupnews.fyi/",
+    },
+
+    {
+      name: "PSU Connect",
+      description:
+        "In just a few years, PSU Connect has soared from a startup to become India's premier PSU news website. Its rapid growth is fueled by a focus on expanding its reach. Established in 2016, it caters specifically to India's key decision-makers, including top government officials, corporate leaders, policymakers, and opinion influencers.\n\nPSU Connect reaches a wide audience across India, including top government officials, Central Government ministries, corporate leaders, policymakers, opinion makers, and professionals in various sectors such as steel, defence, oil and gas, power and renewable energy, aviation, coal and mining, shipping, railways, heavy industries, road and highways.\n\nOver the past ten years, PSU Connect has been instrumental in bringing PSU news to its readers and consistently ranks among the top search results for PSU-related keywords.",
+      imageUrl: "/images/sponsors/uae/og/psuconnect.png",
+      logoUrl: uae_psuconnect,
+      link: "https://www.psuconnect.in/",
+    },
+    {
+      name: "Marksmen Daily",
+      description:
+        "Marksmen Daily delivers focused news and insights for modern professionals, offering in-depth analysis across business, technology, leadership, lifestyle, politics, and entertainment. Our expert team curates thought-provoking articles on market trends, disruptive technologies, and strategies from global thought leaders, including exclusive interviews in our C-Suite Conversations series. Catering to the Indian diaspora and global citizens, we spotlight stories that matter, from industry profiles to emerging trends. With a commitment to excellence, Marksmen Daily equips executives, entrepreneurs, and curious minds with the knowledge to navigate today’s complex landscape.",
+      imageUrl: "/images/sponsors/uae/og/marksmendaily.png",
+      logoUrl: uae_marksmendaily,
+      link: "https://marksmendaily.com/",
     },
   ];
 
