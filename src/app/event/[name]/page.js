@@ -132,6 +132,7 @@ function page({ params }) {
         "20bei033@ietdavv.edu.in",
         "mohamed.suhel@influenceexchangegroup.com",
         "veera.crasta@influenceexchangegroup.com",
+        "megha.kottary@influenceexchangegroup.com",
       ],
     },
   };
