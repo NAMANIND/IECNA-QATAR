@@ -238,12 +238,12 @@ const Spkrform = ({ to, name }) => {
       // Upload image to Firebase storage
       const imageRef = storage
         .ref()
-        .child(`qatar-speakers-image/${formData.image.name}`);
+        .child(`qatar-speakers-image2025/${formData.image.name}`);
       await imageRef.put(formData.image);
       const imageUrl = await imageRef.getDownloadURL();
       setSelectedImageurl(imageUrl);
 
-      const nomineeRef = firestore.collection("qatar-speakers").doc();
+      const nomineeRef = firestore.collection("qatar-speakers2025").doc();
       const nomineeId = nomineeRef.id;
 
       // Save speaker details to Firestore

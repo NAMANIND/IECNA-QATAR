@@ -87,21 +87,21 @@ function ImageDownloadPage({
       if (field === "marketer") {
         transformedImageUrl =
           `https://res.cloudinary.com/dmedpnbvc/image/upload/` +
-          `${overlaycode}:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_315,h_315,x_252,y_-59,r_max/c_scale/co_rgb:F30064,l_text:arial_34_bold_normal_left:${encodeURIComponent(
+          `${overlaycode}:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_352,h_352,x_0,y_15,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_42_bold_normal_left:${encodeURIComponent(
             title
-          )}/fl_layer_apply,x_255,y_165/co_rgb:FFFFFF,l_text:arial_34_normal_left:${encodeURIComponent(
+          )}/fl_layer_apply,x_-5,y_260/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             company
-          )}/fl_layer_apply,x_255,y_205/co_rgb:FFFFFF,l_text:arial_34_normal_left:${encodeURIComponent(
+          )}/fl_layer_apply,x_-5,y_310/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             marco
-          )}/fl_layer_apply,x_255,y_245/lsl2vzzrxzqzboww1thm.jpg`;
+          )}/fl_layer_apply,x_-5,y_350/rqv7mwtpaell5zuzo7at.jpg`;
       } else {
         transformedImageUrl =
           `https://res.cloudinary.com/dmedpnbvc/image/upload/` +
-          `${overlaycode}:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_315,h_315,x_252,y_-59,r_max/c_scale/co_rgb:F30064,l_text:arial_34_bold_normal_left:${encodeURIComponent(
+          `${overlaycode}:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_352,h_352,x_0,y_15,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_42_bold_normal_left:${encodeURIComponent(
             title
-          )}/fl_layer_apply,x_255,y_165/co_rgb:FFFFFF,l_text:arial_34_normal_left:${encodeURIComponent(
+          )}/fl_layer_apply,x_-5,y_260/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             company
-          )}/fl_layer_apply,x_255,y_205/lsl2vzzrxzqzboww1thm.jpg`;
+          )}/fl_layer_apply,x_-5,y_310/rqv7mwtpaell5zuzo7at.jpg`;
       }
     }
 
@@ -109,21 +109,21 @@ function ImageDownloadPage({
       if (field === "marketer") {
         transformedImageUrl =
           `https://res.cloudinary.com/dmedpnbvc/image/upload/` +
-          `${overlaycode}:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_315,h_315,x_252,y_-59,r_max/c_scale/co_rgb:F30064,l_text:arial_34_bold_normal_left:${encodeURIComponent(
+          `${overlaycode}:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_352,h_352,x_0,y_15,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_42_bold_normal_left:${encodeURIComponent(
             title
-          )}/fl_layer_apply,x_255,y_165/co_rgb:FFFFFF,l_text:arial_34_normal_left:${encodeURIComponent(
+          )}/fl_layer_apply,x_-5,y_260/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             company
-          )}/fl_layer_apply,x_255,y_205/co_rgb:FFFFFF,l_text:arial_34_normal_left:${encodeURIComponent(
+          )}/fl_layer_apply,x_-5,y_310/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             marco
-          )}/fl_layer_apply,x_255,y_246/egsqedbstablkcsfhvso.jpg`;
+          )}/fl_layer_apply,x_-5,y_350/jyggyv3nw1jfylfyouvi.jpg`;
       } else {
         transformedImageUrl =
           `https://res.cloudinary.com/dmedpnbvc/image/upload/` +
-          `${overlaycode}:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_315,h_315,x_252,y_-59,r_max/c_scale/co_rgb:F30064,l_text:arial_34_bold_normal_left:${encodeURIComponent(
+          `${overlaycode}:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_352,h_352,x_0,y_15,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_42_bold_normal_left:${encodeURIComponent(
             title
-          )}/fl_layer_apply,x_255,y_165/co_rgb:FFFFFF,l_text:arial_34_normal_left:${encodeURIComponent(
+          )}/fl_layer_apply,x_-5,y_260/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             company
-          )}/fl_layer_apply,x_255,y_205/egsqedbstablkcsfhvso.jpg`;
+          )}/fl_layer_apply,x_-5,y_310/jyggyv3nw1jfylfyouvi.jpg`;
       }
     }
 
@@ -131,21 +131,21 @@ function ImageDownloadPage({
       if (field === "marketer") {
         transformedImageUrl =
           `https://res.cloudinary.com/dmedpnbvc/image/upload/` +
-          `${overlaycode}:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_328,h_328,x_33,y_62,r_max/c_scale/co_rgb:F30064,l_text:arial_42_bold_normal_left:${encodeURIComponent(
+          `${overlaycode}:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_352,h_352,x_0,y_-50,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_42_bold_normal_left:${encodeURIComponent(
             title
-          )}/fl_layer_apply,x_33,y_310/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
+          )}/fl_layer_apply,x_0,y_330/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             company
-          )}/fl_layer_apply,x_33,y_360/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
+          )}/fl_layer_apply,x_0,y_380/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             marco
-          )}/fl_layer_apply,x_33,y_400/ibanijpqoyg2sqqb7wxh.jpg`;
+          )}/fl_layer_apply,x_0,y_420/crp9zeq5kit6ogjjmttm.jpg`;
       } else {
         transformedImageUrl =
           `https://res.cloudinary.com/dmedpnbvc/image/upload/` +
-          `${overlaycode}:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_328,h_328,x_33,y_62,r_max/c_scale/co_rgb:F30064,l_text:arial_42_bold_normal_left:${encodeURIComponent(
+          `${overlaycode}:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_352,h_352,x_0,y_-50,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_42_bold_normal_left:${encodeURIComponent(
             title
-          )}/fl_layer_apply,x_33,y_310/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
+          )}/fl_layer_apply,x_0,y_330/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             company
-          )}/fl_layer_apply,x_33,y_360/ibanijpqoyg2sqqb7wxh.jpg`;
+          )}/fl_layer_apply,x_0,y_380/crp9zeq5kit6ogjjmttm.jpg`;
       }
     }
 
@@ -157,7 +157,7 @@ function ImageDownloadPage({
     console.log("Transformed image loaded!");
     setDisplayed(false);
     if (transformedImageUrl !== null) {
-      const trfRef = firestore.collection("qatar-transformed-images");
+      const trfRef = firestore.collection("qatar-transformed-images2025");
       trfRef
         .where("trf", "==", rem)
         .get()

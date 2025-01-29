@@ -13,42 +13,29 @@ function Whattoexpect() {
   // Sample data for cards
   const cardData = [
     {
-      title: "Engaging Interactions",
+      title: "Meaningful Connections",
       imgUrl: engaging,
       description:
-        "Immerse in a vibrant atmosphere where marketeers and influencers converge to share ideas, insights, and business prospects.",
+        "Work alongside a vibrant community of marketers, creators, and tech pioneers.",
     },
     {
-      title: "Curated Program",
+      title: "Expert Insights",
       imgUrl: curated,
       description:
-        "Our carefully designed agenda features keynote speeches, interactive panel discussions, workshops, and networking sessions. Every moment is crafted to deliver valuable content and foster meaningful interactions.",
+        "Gain practical strategies and wisdom from industry leaders.",
     },
     {
-      title: "Top-Notch Insights",
+      title: "Future-Forward Trends",
+      imgUrl: future,
+      description:
+        "Stay on top of emerging technologies and practices shaping marketing's future.",
+    },
+    {
+      title: "Endless Possibilities",
       imgUrl: top,
       description:
-        "Rub shoulders with leading marketeers and influencers from the region, gaining valuable insights and establishing significant relationships that transcend the event.",
+        "Whether you're a marketer, influencer, or tech innovator, unlock unlimited opportunities for growth.",
     },
-    {
-      title: "Future of Marketing",
-      imgUrl: future,
-      description:
-        "Explore the future of marketing with a focus on the latest trends and technologies in MarTech and AdTech. Stay ahead of the curve with innovative strategies and cutting-edge approaches.",
-    },
-    {
-      title: "Opportunities for All",
-      imgUrl: future,
-      description:
-        "Whether you're a marketer seeking innovative strategies or an influencer eager to collaborate with brands, this event provides the perfect platform to expand your network and explore new business opportunities.",
-    },
-    {
-      title: "Industry Expertise",
-      imgUrl: future,
-      description:
-        "Gain practical knowledge from industry experts, discover cutting-edge trends, and unlock the full potential of influencer marketing for your brand.",
-    },
-    // Add more objects as needed
   ];
 
   const offscreen = {
@@ -88,12 +75,10 @@ function Whattoexpect() {
         viewport={{ once: true, amount: 0.3 }}
         className={`mt-10 text-xl  sm:px-20 px-5 font-medium tracking-tighter leading-8 text-center text-black max-md:mt-10 max-md:max-w-full ${work_sans.className} `}
       >
-        The Influence Exchange Confex & Awards Series in Qatar promises an
-        enriching experience that combines learning, networking, inspiration,
-        and celebration within the dynamic world of influencer marketing.
-        Prepare for a memorable event that leaves you with new perspectives,
-        valuable connections, and actionable insights to propel your influencer
-        marketing endeavors forward.
+        Qatar’s digital landscape is rapidly evolving, driven by a young,
+        tech-conscious population and a rising trend of social media engagement.
+        This thriving environment offers ample opportunities for innovative
+        ideas and strategic partnerships.
       </motion.div>
 
       <div className="w-full max-md:mt-10 max-md:max-w-full sm:p-20 p-5">

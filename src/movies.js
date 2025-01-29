@@ -3,7 +3,7 @@ function importAll(r) {
   r.keys().forEach((item, index) => {
     images[item.replace("./", "")] = r(item).default || r(item);
   });
-  console.log(images);
+  // console.log(images);
 
   return images;
 }

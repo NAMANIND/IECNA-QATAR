@@ -18,7 +18,7 @@ export async function generateMetadata({ params }) {
 
   if (nameArr.length > 1) {
     const nomineeSnapshot = await firestore
-      .collection("qatar-transformed-images")
+      .collection("qatar-transformed-images2025")
       .where("trf", "==", nameArr[1])
       .get();
 
@@ -86,53 +86,39 @@ function page({ params }) {
         "mohamed.suhel@influenceexchangegroup.com",
       ],
     },
-    sonuchauhan: {
-      FormType: "general",
-      emails: [
-        "20bei033@ietdavv.edu.in",
-        "mohamed.suhel@influenceexchangegroup.com",
-        "sonu.chauhan@influenceexchangegroup.com",
-      ],
-    },
-    anushri: {
-      FormType: "general",
-      emails: [
-        "20bei033@ietdavv.edu.in",
-        "anushri.c@influenceexchangegroup.com",
-        "mohamed.suhel@influenceexchangegroup.com",
-        "megha.salian@influenceexchangegroup.com",
-      ],
-    },
-    sonu: {
-      FormType: "speaker",
-      emails: [
-        "20bei033@ietdavv.edu.in",
-        "mohamed.suhel@influenceexchangegroup.com",
-        "sonu.chauhan@influenceexchangegroup.com",
-      ],
-    },
-    meghak: {
-      FormType: "speaker",
-      emails: [
-        "20bei033@ietdavv.edu.in",
-        "mohamed.suhel@influenceexchangegroup.com",
-        "megha.kottary@influenceexchangegroup.com",
-      ],
-    },
-    suhel: {
-      FormType: "general",
-      emails: [
-        "20bei033@ietdavv.edu.in",
-        "mohamed.suhel@influenceexchangegroup.com",
-      ],
-    },
     veera: {
       FormType: "general",
       emails: [
         "20bei033@ietdavv.edu.in",
+        "megha.salian@influenceexchangegroup.com",
         "mohamed.suhel@influenceexchangegroup.com",
         "veera.crasta@influenceexchangegroup.com",
+      ],
+    },
+    fathima: {
+      FormType: "general",
+      emails: [
+        "20bei033@ietdavv.edu.in",
         "megha.salian@influenceexchangegroup.com",
+        "mohamed.suhel@influenceexchangegroup.com",
+        "fathima.shaikh@influenceexchangegroup.com",
+      ],
+    },
+    mk: {
+      FormType: "general",
+      emails: [
+        "20bei033@ietdavv.edu.in",
+        "mohamed.suhel@influenceexchangegroup.com",
+        "megha.kottary@influenceexchangegroup.com",
+        "megha.salian@influenceexchangegroup.com",
+      ],
+    },
+    priyanshi: {
+      FormType: "speaker",
+      emails: [
+        "20bei033@ietdavv.edu.in",
+        "mohamed.suhel@influenceexchangegroup.com",
+        "priyanshi.pandey@influenceexchangegroup.com",
       ],
     },
   };

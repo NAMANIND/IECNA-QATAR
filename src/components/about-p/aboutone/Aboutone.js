@@ -173,51 +173,40 @@ function Aboutone() {
           viewport={{ once: true, amount: 0.3 }}
           className="sm:text-md text-xl  sm:px-20 px-0 font-medium text-justify tracking-tighter leading-6 text-white max-md:max-w-full slidein"
         >
-          The Influence Exchange Confex &amp; Awards Series is back with its
-          next exciting installment, set to take place on November 19th, 2024,
-          in the vibrant locale of Qatar. This premier event is designed to be
-          the ultimate convergence of Ad Tech, Mar Tech, and Influencer
-          Marketing, offering unparalleled opportunities for industry
-          professionals to unlock the full potential of their brands. Join us
-          for an electrifying event that bridges the gap between influencers and
-          brands, creating endless possibilities for collaboration, innovation,
-          and growth. Our platform is designed to unite over 100 dynamic
-          marketeers and 100 influential individuals, creating an unparalleled
-          environment for networking, knowledge exchange, and strategic
-          partnerships. Focused on cultivating genuine connections, this event
-          promises an exceptional gathering of passionate individuals dedicated
-          to the realm of ad tech, mar tech &amp; influencer marketing. <br />
-          <br />
-          This is a one-of-a-kind opportunity for marketers and Influencers to
-          meet under one roof and foster future collaborations and partnerships.
-          At this exclusive event, you'll have the opportunity to engage with
-          top-notch marketeers and influencers from the region, gaining valuable
-          insights and forging valuable relationships. Our carefully curated
-          program features keynote speeches, interactive panel discussions,
-          networking sessions, fireside chat, award ceremony, after party and
-          cocktail dinner ensuring that every moment is packed with valuable
-          content and meaningful interactions.
+          Qatar emerges as an exceptional venue for The Influence Exchange
+          Confex & Awards, reflecting its growing reputation as a hub for
+          innovation, business excellence, and digital transformation in the
+          region. The nation's influencer marketing sector is on a strong growth
+          trajectory, as brands increasingly recognize its potential to foster
+          genuine connections and deliver impactful results.
           <br />
           <br />
-          Discover the future of marketing with the latest trends and
-          technologies in AdTech, Martech and Influencer at our upcoming event.
-          Whether you are a marketer seeking innovative strategies to leverage
-          the power of influencers or an influencer looking to collaborate with
-          brands, this event is the perfect platform to expand your network and
-          explore new business opportunities. Gain practical knowledge from
-          industry experts, discover cutting-edge trends, and unlock the
-          potential of ad tech, mar tech & influencer marketing for your brand.
+          Qatar's influencer advertising market is projected to grow from USD
+          33.9 million in 2024 to USD 47.6 million by 2028, with a CAGR of
+          8.83%, highlighting its rising importance in digital marketing.
+          Meanwhile, the broader social media advertising market is expected to
+          expand from USD 199.5 million to USD 242.9 million during the same
+          period, reflecting a CAGR of 5.04%. The faster growth of influencer
+          advertising underscores a shift toward personalized, relatable
+          campaigns that resonate with Qatar's digitally engaged and youthful
+          audience, solidifying its role as a key driver in the marketing
+          landscape.
           <br />
           <br />
-          <span className="text-[var(--brand)]">
-            {" "}
-            Don&#39;t miss this opportunity to be part of a global hub of
-            innovation and excellence. Join us in Qatar for a transformative
-            experience that will equip you with the knowledge, tools, and
-            connections to excel in the fast-paced world of Ad Tech, Mar Tech,
-            and Influencer Marketing.
-          </span>
+          Join us to explore the future of marketing through the latest
+          advancements in AdTech, MarTech, and influencer marketing. Whether
+          you're a marketer aiming to harness the power of influencers or an
+          influencer seeking collaborations with leading brands, this event
+          offers a dynamic platform to expand your network and explore new
+          opportunities. Gain actionable insights from industry leaders,
+          discover emerging trends, and unlock the potential of cutting-edge
+          marketing solutions to drive success for your brand.
+          <br />
+          <br />
         </motion.p>
+        <span className="text-[var(--brand)] w-full text-center">
+          Welcome to the 8th Edition of The Influence Exchange Confex & Awards!
+        </span>
         <motion.div
           initial={offscreen}
           whileInView={onscreen}

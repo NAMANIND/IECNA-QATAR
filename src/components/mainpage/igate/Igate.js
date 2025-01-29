@@ -59,7 +59,7 @@ function Ig() {
                 className={`mt-7 text-7xl text-white leading-[90px] w-full max-md:text-4xl ${anton.className}`}
                 dateTime="2024-07-12"
               >
-                19<sup className="text-white ">th</sup> NOV 2024
+                12<sup className="text-white ">th</sup> NOV 2025
               </time>
               <p className="mt-1 text-[var(--brand)] uppercase text-7xl text-left leading-[117%]  sm:mb-0 mb-4  font-bold">
                 QATAR
@@ -94,7 +94,7 @@ function Ig() {
             className={`mt-7 text-5xl text-white leading-[90px]  max-md:text-4xl ${anton.className}`}
             dateTime="2024-07-12"
           >
-            19<sup className="text-white ">th</sup> November 2024
+            12<sup className="text-white ">th</sup> November 2025
           </time>
           <p className="mt-5 text-[var(--brand)] uppercase leading-[117%]  sm:mb-0 mb-4  font-bold">
             QATAR

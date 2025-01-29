@@ -56,7 +56,7 @@ function Well() {
               <span className="text-[var(--brand)]">charm!</span>
               <br />
               And IXG is back with the{" "}
-              <span className="text-[var(--brand)]">fifth edition </span>
+              <span className="text-[var(--brand)]">sixth edition </span>
               <br /> of the much awaited{" "}
               <span className="text-[var(--brand)]">IEC&A!</span>
             </div>
