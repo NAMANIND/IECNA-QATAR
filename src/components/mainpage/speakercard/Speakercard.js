@@ -330,7 +330,9 @@ function SpeakerCard() {
         initial={offscreen}
         whileInView={onscreen}
         viewport={{ once: true, amount: 0.3 }}
-        className="self-center text-5xl mt-52 text-center text-black leading-[61.92px] max-md:max-w-full max-md:text-4xl"
+        className={`self-center text-5xl ${
+          speakers.length > 0 && "mt-52"
+        } text-center text-black leading-[61.92px] max-md:max-w-full max-md:text-4xl`}
       >
         OUR PAST SPEAKERS
       </motion.h2>
