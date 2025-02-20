@@ -21,6 +21,27 @@ function Oursponsor2() {
   // Define data for sponsors
   const sponsors = [
     {
+      title: "Lanyard Sponsor",
+      name: "Socio Genee",
+      description:
+        "Socio Genee is the leading platform offering 100% transparency and business growth for Influencers, focused on building communities to enhance and uplift the creator ecosystem.",
+      imageUrl: "https://india2024.theiena.com/images/sponsors/soge-og.jpg",
+      logoUrl: "https://india2024.theiena.com/images/sponsors/soge.png",
+      link: "https://sociogenee.com/",
+      special: true,
+    },
+    {
+      title: "Solution Partner",
+      name: "Greenroom now",
+      description:
+        "Greenroom is a content and influencer marketing agency based in Bangalore and Mumbai. We believe in turning attention to retention: crafting long-term impact. We are here for brands and creators who are looking to navigate and thrive in the attn economy and work with some of the top brands in the country.",
+      imageUrl:
+        "https://india2024.theiena.com/images/sponsors/greenroom-og.png",
+      logoUrl: "https://india2024.theiena.com/images/sponsors/greenroom.png",
+      link: "https://www.greenroomnow.com/",
+      special: true,
+    },
+    {
       title: "Gold Sponsor",
       name: "Social Chameleon",
       description:

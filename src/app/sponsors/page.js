@@ -11,8 +11,8 @@ function Sponsors() {
       <Headtop head="Sponsors" />
 
       {/* <Oursponsor /> */}
-      <Mediapartners />
       <Oursponsor2 />
+      <Mediapartners />
 
       <Whoshould />
     </div>
