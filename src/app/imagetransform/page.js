@@ -87,21 +87,21 @@ function ImageDownloadPage({
       if (field === "marketer") {
         transformedImageUrl =
           `https://res.cloudinary.com/dmedpnbvc/image/upload/` +
-          `${overlaycode}:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_352,h_352,x_0,y_15,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_42_bold_normal_left:${encodeURIComponent(
+          `${overlaycode}:${overlayParam}/fl_layer_apply,ar_1.0,c_thumb,w_352,h_352,x_1,y_15,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_42_bold_normal_left:${encodeURIComponent(
             title
-          )}/fl_layer_apply,x_-5,y_260/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
+          )}/fl_layer_apply,x_1,y_240/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             company
-          )}/fl_layer_apply,x_-5,y_310/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
+          )}/fl_layer_apply,x_1,y_290/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             marco
-          )}/fl_layer_apply,x_-5,y_350/rqv7mwtpaell5zuzo7at.jpg`;
+          )}/fl_layer_apply,x_1,y_330/kchw48lotodk4kqazgnk.jpg`;
       } else {
         transformedImageUrl =
           `https://res.cloudinary.com/dmedpnbvc/image/upload/` +
-          `${overlaycode}:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_352,h_352,x_0,y_15,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_42_bold_normal_left:${encodeURIComponent(
+          `${overlaycode}:${overlayParam}/fl_layer_apply,ar_1.0,c_thumb,w_352,h_352,x_1,y_15,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_42_bold_normal_left:${encodeURIComponent(
             title
-          )}/fl_layer_apply,x_-5,y_260/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
+          )}/fl_layer_apply,x_1,y_240/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             company
-          )}/fl_layer_apply,x_-5,y_310/rqv7mwtpaell5zuzo7at.jpg`;
+          )}/fl_layer_apply,x_1,y_290/kchw48lotodk4kqazgnk.jpg`;
       }
     }
 
@@ -109,21 +109,21 @@ function ImageDownloadPage({
       if (field === "marketer") {
         transformedImageUrl =
           `https://res.cloudinary.com/dmedpnbvc/image/upload/` +
-          `${overlaycode}:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_352,h_352,x_0,y_15,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_42_bold_normal_left:${encodeURIComponent(
+          `${overlaycode}:${overlayParam}/fl_layer_apply,ar_1.0,c_thumb,w_355,h_355,x_326,y_-42,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_42_bold_normal_left:${encodeURIComponent(
             title
-          )}/fl_layer_apply,x_-5,y_260/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
+          )}/fl_layer_apply,x_326,y_200/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             company
-          )}/fl_layer_apply,x_-5,y_310/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
+          )}/fl_layer_apply,x_326,y_245/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             marco
-          )}/fl_layer_apply,x_-5,y_350/jyggyv3nw1jfylfyouvi.jpg`;
+          )}/fl_layer_apply,x_326,y_280/iydzh119vxfkwm10usqo.jpg`;
       } else {
         transformedImageUrl =
           `https://res.cloudinary.com/dmedpnbvc/image/upload/` +
-          `${overlaycode}:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_352,h_352,x_0,y_15,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_42_bold_normal_left:${encodeURIComponent(
+          `${overlaycode}:${overlayParam}/fl_layer_apply,ar_1.0,c_thumb,w_355,h_355,x_326,y_-42,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_42_bold_normal_left:${encodeURIComponent(
             title
-          )}/fl_layer_apply,x_-5,y_260/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
+          )}/fl_layer_apply,x_326,y_200/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             company
-          )}/fl_layer_apply,x_-5,y_310/jyggyv3nw1jfylfyouvi.jpg`;
+          )}/fl_layer_apply,x_326,y_245/iydzh119vxfkwm10usqo.jpg`;
       }
     }
 
@@ -131,21 +131,21 @@ function ImageDownloadPage({
       if (field === "marketer") {
         transformedImageUrl =
           `https://res.cloudinary.com/dmedpnbvc/image/upload/` +
-          `${overlaycode}:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_352,h_352,x_0,y_-50,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_42_bold_normal_left:${encodeURIComponent(
+          `${overlaycode}:${overlayParam}/fl_layer_apply,ar_1.0,c_thumb,w_352,h_352,x_-1,y_-45,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_42_bold_normal_left:${encodeURIComponent(
             title
-          )}/fl_layer_apply,x_0,y_330/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
+          )}/fl_layer_apply,x_-1,y_330/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             company
-          )}/fl_layer_apply,x_0,y_380/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
+          )}/fl_layer_apply,x_-1,y_380/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             marco
-          )}/fl_layer_apply,x_0,y_420/crp9zeq5kit6ogjjmttm.jpg`;
+          )}/fl_layer_apply,x_-1,y_420/iy5yygckqnpgyuoes4t5.jpg`;
       } else {
         transformedImageUrl =
           `https://res.cloudinary.com/dmedpnbvc/image/upload/` +
-          `${overlaycode}:${overlayParam}/fl_layer_apply,ar_1.0,c_lfill,w_352,h_352,x_0,y_-50,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_42_bold_normal_left:${encodeURIComponent(
+          `${overlaycode}:${overlayParam}/fl_layer_apply,ar_1.0,c_thumb,w_352,h_352,x_-1,y_-45,r_max/c_scale/co_rgb:FFFFFF,l_text:arial_42_bold_normal_left:${encodeURIComponent(
             title
-          )}/fl_layer_apply,x_0,y_330/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
+          )}/fl_layer_apply,x_-1,y_330/co_rgb:FFFFFF,l_text:arial_28_normal_left:${encodeURIComponent(
             company
-          )}/fl_layer_apply,x_0,y_380/crp9zeq5kit6ogjjmttm.jpg`;
+          )}/fl_layer_apply,x_-1,y_380/iy5yygckqnpgyuoes4t5.jpg`;
       }
     }
 
