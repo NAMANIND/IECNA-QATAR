@@ -17,7 +17,7 @@ export async function generateMetadata({ params }) {
     },
   };
 }
-
+// ok
 export default function VoteLayout({ children }) {
   return <div className="vote-layout">{children}</div>;
 }
