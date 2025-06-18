@@ -122,8 +122,7 @@ function Pastevents() {
               viewport={{ once: true, amount: 0.3 }} // Detect when element enters viewport
               className="relative bottom-[20%]  sm:top-auto -top-40"
             >
-              <Image
-                loading="lazy"
+              <img
                 src={img2}
                 className="z-10  w-full  rounded-[42px]  bg-cover bg-no-repeat bg-lightgray "
                 style={{
@@ -156,8 +155,7 @@ function Pastevents() {
               viewport={{ once: true, amount: 0.3 }} // Detect when element enters viewport
               className="relative bottom-[20%]  sm:top-auto -top-40"
             >
-              <Image
-                loading="lazy"
+              <img
                 src={img1}
                 className="z-10  w-full  rounded-[42px]  bg-cover bg-no-repeat bg-lightgray "
                 style={{
@@ -191,8 +189,7 @@ function Pastevents() {
               viewport={{ once: true, amount: 0.3 }} // Detect when element enters viewport
               className="relative bottom-[20%]  sm:top-auto -top-40"
             >
-              <Image
-                loading="lazy"
+              <img
                 src={img4}
                 className="z-10  w-full  rounded-[42px]  bg-cover bg-no-repeat bg-lightgray "
                 style={{
@@ -214,8 +211,8 @@ function Pastevents() {
             autoFill={true}
             style={{ ...maskImageStyle }}
           >
-            <Image
-              src={logo}
+            <img
+              src={logo.src}
               alt="Hero image"
               className=" shadow-2xl bg-cover sm:w-auto w-1/2 bg-no-repeat bg-lightgray relative z-10 mx-40  "
               width="auto"

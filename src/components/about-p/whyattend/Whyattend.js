@@ -130,8 +130,8 @@ function Whyattend() {
                   {/* Card Image */}
                   <div className="relative px-4">
                     <div className="relative overflow-hidden rounded-2xl">
-                      <Image
-                        src={card.imageUrl}
+                      <img
+                        src={card.imageUrl.src}
                         alt={card.title}
                         width={600}
                         height={300}

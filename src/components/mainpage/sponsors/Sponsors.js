@@ -33,9 +33,9 @@ function Sponsors() {
       <div className="flex flex-wrap gap-10 justify-center">
         {Object.keys(images).map((imageName, index) => (
           <div key={index} className="relative">
-            <Image
+            <img
               className="object-contain"
-              src={images[imageName]} // Use the 'default' property for ES6 modules
+              src={images[imageName].src}
               width={120}
               height={120}
               alt={`Album ${index + 1}`}

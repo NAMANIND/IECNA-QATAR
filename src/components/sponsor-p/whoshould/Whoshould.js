@@ -106,9 +106,8 @@ function Whoshould() {
               >
                 <div className="flex flex-col max-md:mt-10 group">
                   <div className="overflow-hidden rounded-[42px]">
-                    <Image
-                      loading="lazy"
-                      src={card.imageUrl}
+                    <img
+                      src={card.imageUrl.src}
                       className="w-full object-cover h-[400px] group-hover:scale-105 transition-transform duration-300 ease-in-out"
                     />
                   </div>

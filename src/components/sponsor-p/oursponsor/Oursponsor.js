@@ -71,7 +71,6 @@ function Oursponsor() {
               >
                 <div className="overflow-hidden rounded-t-[36px]">
                   <img
-                    loading="lazy"
                     src={sponsor.imageUrl}
                     className="w-full aspect-[2.38] group-hover:scale-105 transition-transform duration-300 ease-in-out"
                   />
@@ -92,9 +91,8 @@ function Oursponsor() {
                     {sponsor.description}
                   </div>
                   <a href={sponsor.link} target="_blank" rel="noreferrer">
-                    <Image
-                      loading="lazy"
-                      src={sponsor.logoUrl}
+                    <img
+                      src={sponsor.logoUrl.src}
                       className="mt-14 max-w-full aspect-[2.13] w-[114px] max-md:mt-10"
                     />
                   </a>

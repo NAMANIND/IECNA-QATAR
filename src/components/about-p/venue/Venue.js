@@ -133,9 +133,8 @@ function Venue() {
             className="flex flex-col w-[56%] max-md:ml-0 max-md:w-full"
           >
             <div className="flex overflow-hidden relative flex-col grow items-center px-16 pt-20 pb-12 text-2xl font-semibold text-center text-black uppercaseleading-[90px] min-h-[460px]  max-md:mt-0 max-md:max-w-full rounded-[36px] ">
-              <Image
-                loading="lazy"
-                src={img}
+              <img
+                src={img.src}
                 className="object-cover absolute inset-0 size-full rounded-[36px] "
                 alt=""
               />

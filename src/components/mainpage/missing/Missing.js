@@ -153,8 +153,8 @@ function Missing() {
                     animate={{ opacity: 1, rotate: -5 }}
                     transition={{ duration: 0.3, delay: 0.2 }}
                   >
-                    <Image
-                      src={highlight.img}
+                    <img
+                      src={highlight.img.src}
                       alt={highlight.title}
                       width={300}
                       height={300}

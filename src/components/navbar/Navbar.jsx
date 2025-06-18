@@ -51,7 +51,7 @@ function Navbar() {
           <div className="flex items-center justify-between h-14 sm:h-16">
             <div className="flex items-center">
               <a href="/" className="text-white text-xl font-bold">
-                <Image src={logo} alt="logo" width={100} height={100} />
+                <img src={logo.src} alt="logo" width={100} height={100} />
               </a>
             </div>
             <div className="md:hidden">

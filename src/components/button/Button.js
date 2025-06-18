@@ -16,7 +16,7 @@ const Button = ({ href, children, color, img }) => {
       <span>
         {children}
 
-        <Image
+        <img
           className={`ml-2 transition-all duration-800 ease  
           
           ${
@@ -25,7 +25,9 @@ const Button = ({ href, children, color, img }) => {
               : ""
           }
     `}
-          src={img === "mic" ? mic : img === "trophy" ? trophy : arrow}
+          src={
+            img === "mic" ? mic.src : img === "trophy" ? trophy.src : arrow.src
+          }
           alt="arrow"
           width={24}
           height={24}

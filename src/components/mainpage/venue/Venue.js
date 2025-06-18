@@ -96,9 +96,8 @@ function Venue() {
           className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full relative z-10   max-md:mt-3"
         >
           <div className="flex overflow-hidden relative flex-col grow justify-center items-center px-16 py-14 text-center uppercase  max-md:px-5 max-md:mt-10 max-md:max-w-full rounded-t-[40px] sm:bg-gradient-to-l bg-white from-white via-white to-black rotate-60 ">
-            <Image
-              loading="lazy"
-              src={img2}
+            <img
+              src={img2.src}
               className="object-cover absolute inset-0 w-full h-full rounded-[40px]    "
             />
             <div className="relative bottom-0 left-0 flex w-full sm:flex-col flex-col items-center gap-4  text-lg text-white sm:h-full sm:justify-between md:gap-0">

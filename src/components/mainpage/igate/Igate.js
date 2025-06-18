@@ -73,8 +73,8 @@ function Ig() {
           viewport={{ once: true, amount: 0.3 }}
           className="relative sm:top-auto top-4 sm:-left-10 left-0"
         >
-          <Image
-            src={got}
+          <img
+            src={got.src}
             alt="Igate"
             width="auto"
             height="auto"

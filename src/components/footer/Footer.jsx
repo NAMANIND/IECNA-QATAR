@@ -6,7 +6,7 @@ import { anton, work_sans } from "@/styles/fonts";
 function Footer() {
   return (
     <div className="bg-white">
-      <Image src={footer} alt="footer" className="w-full" />
+      <img src={footer.src} alt="footer" className="w-full" />
       <div className={`bg-black p-8 ${work_sans.className}`}>
         <footer className="text-white   foot">
           <div className=" w-[100%]">
@@ -117,8 +117,8 @@ function Footer() {
             "
                 style={{ justifyContent: "flex-end" }}
               >
-                <Image
-                  src={logo}
+                <img
+                  src={logo.src}
                   alt="IE&A Logo"
                   className=" sm:w-[10vw] w-[60vw]"
                 />

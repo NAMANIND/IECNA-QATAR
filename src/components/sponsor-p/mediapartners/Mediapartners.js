@@ -208,7 +208,6 @@ function Mediapartners() {
               >
                 <div className="overflow-hidden rounded-t-[36px]">
                   <img
-                    loading="lazy"
                     src={sponsor.imageUrl}
                     className="w-full aspect-[2.38] group-hover:scale-105 transition-transform duration-300 ease-in-out"
                   />
@@ -227,7 +226,6 @@ function Mediapartners() {
                   </div>
                   <a href={sponsor.link} target="_blank">
                     <img
-                      loading="lazy"
                       src={sponsor.logoUrl.src}
                       alt={sponsor.name}
                       className="mt-20 max-w-full aspect-[2.13] w-[114px] max-md:mt-10"

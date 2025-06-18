@@ -52,7 +52,6 @@ function InfluencerMarketingImage() {
   return (
     <div className="flex flex-col ml-5 right-0  my-10 max-md:ml-0 max-md:w-full">
       <img
-        loading="lazy"
         src="https://cdn.builder.io/api/v1/image/assets/TEMP/cac9d992ac41ce5818bec6862e5915fda68a5353a5c4b1d4cf72b7d93f798bf6?apiKey=5e27b1defd60460eaa6dca842133145f&"
         alt="Influencer marketing"
         className="shrink-0   max-w-full  w-full opacity-[0.8]    max-md:mt-10"
@@ -70,9 +69,8 @@ function InfluencerMarketingimg() {
       viewport={{ once: true, amount: 0.3 }}
       className="w-full overflow-hidden pt-20 rounded-[46px] flex justify-end ml-10 "
     >
-      <Image
-        loading="lazy"
-        src={imgman}
+      <img
+        src={imgman.src}
         alt="Influencer marketing "
         className="shrink-0   max-md:mt-10 rounded-[46px] "
         height="100%"
@@ -233,9 +231,8 @@ function Aboutone() {
                         boxShadow: "50px 0 100px 0 rgba(0, 0, 0, 0.95)",
                       }}
                     >
-                      <Image
-                        loading="lazy"
-                        src={aboutimg1}
+                      <img
+                        src={aboutimg1.src}
                         alt="Influencer marketing "
                         className="shrink-0  sm:object-cover sm:w-[30vw] w-[100%]  max-md:mt-10 rounded-[46px] hover:scale-105 transition-transform duration-500 ease-in-out"
                         height="100%"
@@ -261,11 +258,10 @@ function Aboutone() {
             "linear-gradient(0deg, rgb(255 255 255 / 90%) 80%, #000 20%)",
         }}
       >
-        <Image
-          loading="lazy"
-          src={aboutimg2}
+        <img
+          src={aboutimg2.src}
           alt=""
-          className="object-cover   absolute inset-0 size-full rounded-[82px] "
+          className="object-cover absolute inset-0 size-full rounded-[82px] "
         />
         <div className="relative px-10 py-20 w-full bg-black bg-opacity-30 flex justify-center size-full min-h-[400px] rounded-[82px] max-md:px-5 max-md:max-w-full">
           <motion.div

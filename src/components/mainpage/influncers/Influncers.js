@@ -52,12 +52,11 @@ function Influncers() {
         viewport={{ once: true, amount: 0.3 }}
         className="flex justify-center mt-10"
       >
-        <Image
+        <img
           style={{
             boxShadow: "0 -22px 70px 0 rgba(0, 0, 0, 0.7)",
           }}
-          loading="lazy"
-          src={ppl}
+          src={ppl.src}
           alt="Hero image"
           className=" shadow-2xl w-full sm:rounded-t-[200px] rounded-t-[50px] bg-cover bg-no-repeat bg-lightgray relative z-10"
           height="auto"

@@ -96,9 +96,8 @@ function Whattoexpect() {
                 className="flex overflow-hidden relative flex-col pt-20 max-md:mt-10 max-md:max-w-full h-full rounded-[36px]"
                 style={{ flex: 1 }}
               >
-                <Image
-                  loading="lazy"
-                  src={card.imgUrl}
+                <img
+                  src={card.imgUrl.src}
                   alt={card.title}
                   className="object-cover absolute inset-0 size-full group-hover:scale-105 transition-transform duration-300 ease-in-out rounded-[36px]"
                 />

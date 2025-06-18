@@ -37,9 +37,8 @@ function Headtop({ head, opacity }) {
   }
   return (
     <main className="flex overflow-hidden relative flex-col pt-20 text-9xl text-center h-[80vh] md:min-h-[574px] text-white">
-      <Image
-        loading="lazy"
-        src={url}
+      <img
+        src={url.src}
         className={`object-cover  absolute inset-0 w-full h-full  object-${
           lower === "event registration" ? "top" : "center"
         }  `}

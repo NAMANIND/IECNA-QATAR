@@ -37,9 +37,8 @@ function Well() {
       >
         <div className="flex flex-col w-[50%] max-md:ml-0 max-md:w-full">
           <div className="sm:absolute static -left-[0.4rem] bottom-2 sm:w-[50%] w-[100%]   max-md:max-w-full">
-            <Image
-              loading="lazy"
-              src={img}
+            <img
+              src={img.src}
               className="w-[100%] h-[100%] md:scale-[1] scale-[1]  rounded-[36px] aspect-[1.61]"
             />
           </div>
